@@ -1,0 +1,1312 @@
+{
+  "annotated_json": [
+    {
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "<!DOCTYPE html><html lang=\"pt-BR\"><head><meta charset=\"utf-8\"/><meta content=\"width=device-width, initial-scale=1.0\" name=\"viewport\"/><title>OP Oasis Executive Intelligence Report - Rodonaves</title><!-- Link Font Awesome for icons --><link href=\"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css\" rel=\"stylesheet\"/><!-- Include Chart.js from CDN for professional charts --><script src=\"https://cdn.jsdelivr.net/npm/chart.js@3.7.1/dist/chart.min.js\"></script></head></html>"
+              },
+              {
+                "text": "color: var(--info-500); } .opportunities h5 i { color: var(--info-500); } .threats { background-color: var(--warning-100); } .threats h5 { color: var(--warning-500); } .threats h5 i { color: var(--warning-500); } /* Sources table - improved column widths v5.6.1 */ .sources-table-container { margin-top: var(--space-8); width: 100%; overflow-x: auto; /* Allow horizontal scroll on small screens instead of breaking layout */ } .sources-table { width: 100%; min-width: 800px; /* Ensure minimal width for readability */ border-collapse: collapse; font-size: var(--font-size-sm); table-layout: fixed; } .sources-table th, .sources-table td { padding: var(--space-3); text-align: left; border-bottom: 1px solid var(--border-light); vertical-align: top; word-wrap: break-word; } .sources-table th { background-color: var(--background-alt); font-weight: 600; color: var(--text-dark); position: sticky; top: 0; z-index: 10; box-shadow: 0 1px 0 var(--border-light); } .sources-table th:nth-child(1) { /* ID column */ width: 5%; min-width: 40px; } .sources-table th:nth-child(2) { /* Type column */ width: 10%; min-width: 80px; } .sources-table th:nth-child(3) { /* Title column */ width: 30%; min-width: 240px; } .sources-table th:nth-child(4) { /* URL column */ width: 30%; min-width: 240px; } .sources-table th:nth-child(5) { /* Date column */ width: 13%; min-width: 100px; } .sources-table th:nth-child(6) { /* Reliability column */ width: 12%; min-width: 100px; } .sources-table td a { color: var(--primary-600); word-break: break-word; /* Allow URLs to wrap */ display: inline-block; max-width: 100%; } .sources-table td a:hover { text-decoration: underline; } .source-category-header td { background-color: var(--primary-50); color: var(--primary-800); font-weight: 600; padding: var(--space-2) var(--space-3); text-transform: uppercase; font-size: 0.75em; letter-spacing: 0.05em; } /* --- Source Reliability Badge Styling (v5.7.1) --- */ .reliability { display: inline-flex; /* Changed from inline-block */ align-items: center; justify-content: center; padding: 2px 8px; border-radius: 4px; /* Match risk badges */ font-size: var(--font-size-xs); font-weight: 600; color: white; min-width: 80px; /* Ensure consistent width */ text-align: center; vertical-align: middle; /* Align better with text */ } .reliability.high { background-color: var(--confidence-high); } .reliability.medium-high { background-color: var(--confidence-medium); } .reliability.medium { background-color: var(--accent); color: var(--text-dark) !important; } .reliability.medium-low { background-color: var(--accent-light); color: var(--text-dark) !important; } .reliability.low { background-color: var(--confidence-low); } /* --- End Source Reliability Badge Styling --- */ /* Fixed footer styling based on BK-Lab.html */ .footer-wrapper { margin-top: var(--space-12); } .legal-disclaimer { background-color: var(--primary-900); border-radius: var(--card-radius) var(--card-radius) 0 0; padding: var(--space-6); margin-bottom: 0; display: flex; align-items: flex-start; color: white; } .disclaimer-icon { font-size: 1.5rem; margin-right: var(--space-4); color: var(--primary-300); flex-shrink: 0; display: flex; align-items: center; font-family: 'Font Awesome 5 Free'; font-weight: 900; } .disclaimer-content { flex: 1; } .disclaimer-title { font-size: var(--font-size-lg); font-weight: 600; margin-top: 0; margin-bottom: var(--space-3); color: white; } .disclaimer-text { font-size: var(--font-size-sm); line-height: 1.5; margin: 0; color: rgba(255, 255, 255, 0.8); } .footer-container { background-color: var(--primary-800); padding: var(--space-4) var(--space-6); display: flex; justify-content: space-between; align-items: center; border-radius: 0 0 var(--card-radius) var(--card-radius); color: rgba(255, 255, 255, 0.8); border-top: 1px solid var(--primary-700); } .copyright { font-size: var(--font-size-sm); color: rgba(255, 255, 255, 0.7); } .footer-logo { font-size: var(--font-size-sm); color: var(--white); font-weight: 600; display: flex; align-items: center; } .footer-logo img { vertical-align: middle; height: 20px; margin-right: 8px; } .footer-logo-version { display: flex; align-items: center; } .footer-logo-text { margin-right: var(--space-2); } /* Enhanced Structured Text Diagrams for Business Model and Operations */ .structured-diagram-container { text-align: left; padding: var(--card-padding); border: 1px dashed var(--border); border-radius: var(--section-radius); margin-top: var(--space-4); background-color: var(--background-alt); } .process-group { margin-bottom: var(--space-6); } .process-header { font-weight: 600; color: var(--primary-700); margin-bottom: var(--space-3); border-bottom: 1px solid var(--border-light); padding-bottom: var(--space-2); } .process-item { margin-bottom: var(--space-4); padding-left: var(--space-4); position: relative; } .process-item:before { content: ''; position: absolute; height: 100%; width: 2px; background-color: var(--border-light); left: 0; top: 0; } .process-item-header { font-weight: 600; color: var(--primary-600); display: flex; align-items: center; margin-bottom: var(--space-2); } .process-item-header:before { content: '→'; margin-right: var(--space-2); color: var(--primary-500); } .process-item-detail { padding-left: var(--space-6); position: relative; margin-bottom: var(--space-1); /* Added margin for details */ font-size: var(--font-size-sm); /* Slightly smaller detail text */ } .process-item-detail:before { content: '↳'; /* Changed arrow for detail */ position: absolute; left: var(--space-2); /* Adjusted position */ color: var(--primary-300); } .process-group &gt; p { /* Style paragraph directly under process-group */ font-style: italic; color: var(--text-light); margin-bottom: var(--space-4); } /* Verification tables balance - v5.7 */ .verification-grid { display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-8); align-items: stretch; /* ADDED: Ensure columns stretch vertically */ } .verification-column { display: flex; /* ADDED: Use flexbox for column layout */ flex-direction: column; /* ADDED: Stack items vertically */ } .verification-system-table { width: 100%; /* height: 100%; REMOVED: Let flexbox handle height */ flex-grow: 1; /* ADDED: Allow table to grow and fill column height */ border-collapse: collapse; border: 1px solid var(--border-light); /* Add border */ border-radius: var(--section-radius); /* Add radius */ overflow: hidden; /* Clip content to border radius */ font-size: var(--font-size-sm); /* Consistent font size */ } .verification-system-table td, .verification-system-table th { padding: var(--space-3); /* Ensure consistent padding */ vertical-align: top; border-bottom: 1px solid var(--border-light); text-align: left; /* Ensure text aligns left */ } .verification-system-table th { background-color: var(--background-alt); font-weight: 600; border-bottom: 2px solid var(--border); /* Stronger header border */ } .verification-system-table tbody tr:last-child td { border-bottom: none; /* Remove border from last row */ } .verification-system-table .badge-cell { width: 40px; text-align: center; vertical-align: middle; } .verification-system-table .description-cell strong { display: block; margin-bottom: var(--space-1); color: var(--text-dark); } .methodology-section { margin-top: var(--space-8); background-color: var(--background-alt); padding: var(--card-padding); border-radius: var(--section-radius); border: 1px solid var(--border-light); } .methodology-section h4 { margin-top: 0; margin-bottom: var(--space-3); color: var(--text-dark); } .methodology-section p { font-size: var(--font-size-sm); color: var(--text-body); margin-bottom: 0; } /* --- End Verification Tables CSS --- */ /* Chart container with improved consistent spacing v5.6.1 */ .financial-chart-container { margin-bottom: var(--space-10); /* Consistent across all charts */ position: relative; /* Needed for chart.js */ height: 400px; /* Fixed height */ width: 100%; } .chart-explanatory-text { margin-top: var(--space-4); /* Consistent spacing after charts */ margin-bottom: var(--space-6); /* Additional spacing before next content */ text-align: center; font-size: var(--font-size-xs); color: var(--text-light); padding: 0 var(--space-4); } /* Fallback container - improved spacing */ .chart-fallback-container { display: none; /* Hidden by default, shown by JS if chart fails */ margin-top: var(--space-6); margin-bottom: var(--space-8); border: 1px solid var(--border-light); border-radius: var(--section-radius); padding: var(--space-4); background-color: var(--background-alt); } .chart-fallback-container p { text-align: center; color: var(--text-light); font-style: italic; } /* Add standard responsive styles from v5.6.1 here if they were omitted */ @media (max-width: 992px) { .report-container { padding: var(--space-6); } .exec-summary-cards { grid-template-columns: repeat(2, 1fr); /* Adjust to 2 columns on medium screens */ } .verification-grid { grid-template-columns: 1fr; /* Stack columns on smaller screens */ } .swot-matrix { grid-template-columns: 1fr; /* Stack SWOT quadrants */ } .strengths, .opportunities { border-right: none; } .weaknesses { border-bottom: 1px solid var(--border-light); /* Add border back when stacked */ } .header-main { flex-direction: column; align-items: center; text-align: center; } .header-left { margin-bottom: var(--space-4); } .header-right { width: 100%; } } @media (max-width: 768px) { .exec-summary-cards { grid-template-columns: repeat(2, 1fr); /* Keep 2 columns on small tablets */ } h1 { font-size: var(--font-size-3xl); } h2 { font-size: var(--font-size-2xl); } h3 { font-size: var(--font-size-xl); } .module { padding: var(--space-6); } .matrix { height: 450px; } /* Reduce matrix height */ } @media (max-width: 480px) { .report-container { padding: var(--space-4); } .exec-summary-cards { grid-template-columns: 1fr; /* Single column on small mobile */ } .header-top { flex-direction: column; gap: var(--space-2); padding: var(--space-3); } .verification-badges { gap: var(--space-2); justify-content: center; } .verification-item { font-size: calc(var(--font-size-xs) * 0.9); /* Smaller text on mobile */ } .matrix { height: 400px; } /* Further reduce matrix height */ .dot-text { font-size: calc(var(--font-size-xs) * 0.8); } /* Even smaller text in dots */ } @media print { body { background-color: var(--white); color: #000; } .report-container { max-width: none; padding: 0; box-shadow: none; } .report-header, .module, .footer-wrapper { box-shadow: none; border: 1px solid #ccc; margin-bottom: 1cm; } .report-header { background: #eee !important; /* Simple background for print */ color: #000 !important; } .header-top, .header-main, .verification-legend { border-color: #ccc !important; } .company-name, .header-title, .header-date, .report-branding .report-type, .verification-legend h6, .verification-item, .company-legal-name, .company-tickers { color: #000 !important; } .company-category, .company-secondary-category { background-color: #ddd !important; color: #000 !important; } .logo-container img { filter: grayscale(100%); } .verified-badge, .consensus-badge, .analytical-badge, .speculative-badge { border: 1px solid #999; color: #000 !important; } .verified-badge { background-color: #dff0d8 !important; } .consensus-badge { background-color: #d9edf7 !important; } .analytical-badge { background-color: #e8e0f1 !important; } .speculative-badge { background-color: #fcf8e3 !important; } .exec-summary-cards { grid-template-columns: repeat(4, 1fr); /* Try to keep 4 columns in print */ page-break-inside: avoid; } .kpi-card { border: 1px solid #ccc; } .callout-box { border-left-color: #999; background-color: #f5f5f5; } .timeline-container { page-break-inside: avoid; } .matrix { height: auto !important; /* Allow matrix to resize in print */ page-break-inside: avoid; border-color: #999; } .dot { background-color: #eee !important; /* Light grey for competitors */ border: 1px solid #999; } .dot .dot-text { color: #000 !important; } .dot.company { background-color: #ccc !important; /* Darker grey for company */ border: 1px solid #666; } .dot.company .dot-text { color: #000 !important; font-weight: bold; } .swot-matrix { page-break-inside: avoid; } .swot-quadrant { background-color: #fff !important; border-color: #ccc; } .strengths h5, .strengths h5 i { color: #3c763d !important; } .weaknesses h5, .weaknesses h5 i { color: #a94442 !important; } .opportunities h5, .opportunities h5 i { color: #31708f !important; } .threats h5, .threats h5 i { color: #8a6d3b !important; } .data-table, .sources-table, .verification-system-table { page-break-inside: avoid; } .data-table th, .sources-table th, .verification-system-table th { background-color: #f5f5f5 !important; } .data-table th, .data-table td, .sources-table th, .sources-table td, .verification-system-table th, .verification-system-table td { border-color: #ccc !important; } .reliability { /* Ensure reliability badges print reasonably */ border: 1px solid #999; color: #000 !important; } .reliability.high { background-color: #dff0d8 !important; } .reliability.medium-high { background-color: #fcf8e3 !important; } .reliability.medium { background-color: #fff3cd !important; } .reliability.medium-low { background-color: #fff9e6 !important; } .reliability.low { background-color: #f2dede !important; } .financial-chart-container { display: none; } /* Hide charts in print */ .chart-fallback-container { display: block !important; border: 1px solid #ccc; background-color: #fff; } /* Show fallbacks */ .chart-explanatory-text { display: none; } .legal-disclaimer, .footer-container { background: #eee !important; color: #000 !important; border-color: #ccc !important; } .disclaimer-icon, .disclaimer-title, .disclaimer-text, .copyright, .footer-logo { color: #000 !important; } .footer-logo img { filter: grayscale(100%); } a { color: #000 !important; text-decoration: none; } /* Hide unnecessary elements */ .timeline-toggle-btn, .header-brand-container .brand-separator { display: none; } } <body><div class=\"report-container\"><!-- Header with OP Oasis branding and consistent border-radius --><header class=\"report-header\"><div class=\"header-top\"><div class=\"header-title\">OP Oasis | DeepResearch</div><div class=\"header-date\">01 de julho de 2025</div></div><div class=\"header-main\"><div class=\"header-left\"><div class=\"company-content\"><div class=\"category-container\"><div class=\"company-category\">Transporte e Logística</div><div class=\"company-secondary-category\">Carga Fracionada (LTL)</div></div><h1 class=\"company-name\">Rodonaves</h1><div class=\"company-legal-name\"> Rodonaves Transportes e Encomendas LTDA <span class=\"verified-badge\">VF</span></div><!-- B3 Tickers (Conditional - only for publicly traded companies) --><div class=\"company-tickers\" style=\"display: none;\"> B3 Tickers: N/A <span class=\"verified-badge\">VF</span></div></div></div><div class=\"header-right\"><div class=\"header-brand-container\"><div class=\"logo-container\"><img alt=\"OP Oasis Logo\" src=\"https://peru-boar-992452.hostingersite.com/OP-OASIS-LOGO-WHITE2.png\"/></div><div class=\"brand-separator\"></div><div class=\"report-branding\"><div class=\"report-type\">Executive Intelligence</div></div></div></div></div><div class=\"verification-legend\"><h6>Sistema de Verificação da Informação <a href=\"#section-8.2\">(+)</a>:</h6><div class=\"verification-badges\"><div class=\"verification-item\"><span class=\"verified-badge\">VF</span> Fatos Verificados</div><div class=\"verification-item\"><span class=\"consensus-badge\">IC</span> Consenso da Indústria</div><div class=\"verification-item\"><span class=\"analytical-badge\">AI</span> Interpretação Analítica</div><div class=\"verification-item\"><span class=\"speculative-badge\">SA</span> Avaliação Especulativa</div></div></div></header><!-- Executive Summary --><section class=\"module\" id=\"executive-summary\"><div class=\"module-header\"><h2 class=\"module-title\"><span class=\"section-number\">1.</span> Sumário Executivo</h2></div><p class=\"summary-text\"> A Rodonaves é uma das maiores empresas de transporte e logística do Brasil, com mais de 40 anos de atuação, especializada em carga fracionada (LTL) e dedicada. Fundada por João Naves em Ribeirão Preto (SP), a companhia evoluiu de uma operação com uma única bicicleta para um conglomerado, o Grupo Rodonaves, que inclui seis empresas em áreas como seguros, locação de veículos e agronegócio. A empresa é de capital fechado, com forte característica de gestão familiar, e não possui histórico de rodadas de investimento de capital de risco, financiando sua expansão através de reinvestimento de lucros e parcerias estratégicas. A Rodonaves se posiciona como um player de referência no mercado nacional, competindo com gigantes do setor através de uma malha logística capilar e investimentos contínuos em tecnologia e frota. </p><div class=\"exec-summary-cards\"><div class=\"kpi-card\"><div class=\"kpi-icon\"><i class=\"fas fa-calendar-alt\"></i></div><div class=\"kpi-value\">1980</div><p class=\"kpi-label\">Ano de Fundação <span class=\"verified-badge kpi-badge\">VF</span></p></div><div class=\"kpi-card\"><div class=\"kpi-icon\"><i class=\"fas fa-user-tie\"></i></div><div class=\"kpi-value\">João Naves</div><p class=\"kpi-label\">Fundador e Presidente <span class=\"verified-badge kpi-badge\">VF</span></p></div><div class=\"kpi-card\"><div class=\"kpi-icon\"><i class=\"fas fa-users\"></i></div><div class=\"kpi-value\">+10.000</div><p class=\"kpi-label\">Colaboradores (Grupo) <span class=\"verified-badge kpi-badge\">VF</span></p></div><div class=\"kpi-card\"><div class=\"kpi-icon\"><i class=\"fas fa-building\"></i></div><div class=\"kpi-value\">+150</div><p class=\"kpi-label\">Unidades de Atendimento <span class=\"verified-badge kpi-badge\">VF</span></p></div></div><div class=\"callout-box\"><h5><i class=\"fas fa-lightbulb\"></i> Insights Críticos &amp; Implicações Estratégicas</h5><p> A trajetória da Rodonaves demonstra um crescimento orgânico e sustentável, financiado internamente, o que indica uma forte disciplina financeira e uma cultura avessa a alavancagem excessiva por meio de capital externo. <span class=\"analytical-badge\">AI</span> A estrutura de Grupo, com empresas sinérgicas, permite a diversificação de receitas e a oferta de soluções integradas, criando uma vantagem competitiva robusta. <span class=\"analytical-badge\">AI</span> A ausência de investidores institucionais ou de private equity sugere que o controle permanece familiar, o que pode implicar em agilidade na tomada de decisão, mas também em desafios relacionados à sucessão e à governança corporativa a longo prazo. <span class=\"speculative-badge\">SA</span> A expansão para o modal aéreo e os investimentos em novos centros de distribuição sinalizam uma estratégia agressiva para aumentar a capilaridade e competir em prazos de entrega, um fator crítico no e-commerce. </p></div><p><strong>Sede:</strong> Ribeirão Preto, São Paulo, Brasil <span class=\"verified-badge\">VF</span></p></section><!-- Company DNA --><section class=\"module\" id=\"company-dna\"><div class=\"module-header\"><h2 class=\"module-title\"><span class=\"section-number\">2.</span> DNA da Empresa</h2></div><h3><span class=\"section-number\">2.1</span> Visão Geral e Histórico <span class=\"consensus-badge\">IC</span></h3><p>A Rodonaves foi fundada em 1980 por João Naves, que iniciou o negócio de transporte de encomendas em um pequeno box na rodoviária de Ribeirão Preto, utilizando uma bicicleta de carga. A empresa, cujo nome oficial é Rodonaves Transportes e Encomendas LTDA, cresceu de forma constante ao longo das décadas. Em 1987, estabeleceu uma sociedade com outra empresa de transporte, que foi desfeita três anos depois. Um marco de resiliência ocorreu em 1994, quando a empresa superou um vendaval que quase destruiu sua sede e frota. A partir de então, a expansão se acelerou, com a inauguração de uma nova e moderna matriz em Ribeirão Preto e a ampliação da atuação para diversas regiões do Brasil. Hoje, a Rodonaves é a principal empresa do Grupo Rodonaves, um ecossistema de negócios que atua em sinergia.</p><div class=\"timeline-container collapsable-timeline\" id=\"company-history-timeline-container\"><h4>Marcos Históricos <span class=\"verified-badge\">VF</span></h4><ul class=\"compact-timeline\" id=\"company-history-timeline\"><li><span class=\"timeline-date\">2020</span><span class=\"timeline-description\">Inicia operações no transporte aéreo de cargas, investindo R$ 4 milhões para expandir a atuação multimodal.</span></li><li><span class=\"timeline-date\">2014</span><span class=\"timeline-description\">Inaugura um inovador centro de cross-docking automatizado em Americana (SP) para otimizar a triagem de cargas.</span></li><li><span class=\"timeline-date\">1994</span><span class=\"timeline-description\">Supera uma grande crise após um vendaval destruir parte de sua estrutura, demonstrando resiliência e capacidade de recuperação.</span></li><li><span class=\"timeline-date\">1980</span><span class=\"timeline-description\">João Naves funda a RTE Rodonaves em um box na rodoviária de Ribeirão Preto (SP), iniciando as operações com uma bicicleta de carga.</span></li></ul></div><div id=\"company-history-timeline-fallback\"></div><h3><span class=\"section-number\">2.2</span> Posicionamento Regulatório <span class=\"verified-badge\">VF</span></h3><p>A Rodonaves opera sob a regulamentação da Agência Nacional de Transportes Terrestres (ANTT) para o transporte rodoviário de cargas no Brasil. A empresa está registrada com o CNPJ 44.914.992/0001-38 e sua atividade econômica principal é o Transporte Rodoviário de Cargas. A empresa adota o regime tributário de Lucro Real, conforme dados cadastrais. A expansão para o modal aéreo implica conformidade com as normas da Agência Nacional de Aviação Civil (ANAC) para o transporte de cargas.</p><h3><span class=\"section-number\">2.3</span> Liderança e Governança <span class=\"consensus-badge\">IC</span></h3><h4>Diretoria Executiva</h4><p>A liderança da Rodonaves é exercida por seus fundadores, refletindo uma forte cultura familiar e empreendedora. João Naves, o fundador, atua como Presidente do Grupo, enquanto sua esposa, Vera Naves, ocupa a posição de Vice-Presidente. A gestão é complementada por diretores experientes em áreas estratégicas como vendas e operações.</p><table class=\"data-table\"><thead><tr><th>Nome</th><th>Cargo</th><th>Background Resumido</th><th>Fonte</th></tr></thead><tbody><tr><td>João Naves</td><td>Fundador e Presidente</td><td>Empreendedor com mais de 40 anos de experiência no setor de transportes, iniciou a empresa do zero e a transformou em um dos maiores grupos de logística do país.</td></tr><tr><td>Vera Naves</td><td>Vice-Presidente</td><td>Iniciou na empresa aos 17 anos como auxiliar administrativa e ascendeu por diversas áreas, possuindo profundo conhecimento operacional e administrativo. Atua ativamente em programas de liderança feminina.</td></tr><tr><td>Régis Tiecher</td><td>CEO</td><td>Executivo com foco em inovação e tendências tecnológicas, representa a empresa em programas de desenvolvimento internacional para aplicar novas perspectivas ao mercado brasileiro.</td></tr><tr><td>Jesiel Tasso</td><td>Diretor de Vendas e Marketing</td><td>Responsável pela estratégia comercial e de marketing da companhia, com foco em inovação e excelência de soluções para o mercado, especialmente no segmento de autopeças.</td></tr></tbody></table></section></div></body>"
+              },
+              {
+                "text": "<h4>Conselho de Administração</h4><p>Sendo uma empresa de capital fechado e controle familiar, a estrutura do conselho não é publicamente detalhada. <span class=\"analytical-badge\">AI</span> As decisões estratégicas são centralizadas nos fundadores, João e Vera Naves, que também atuam como conselheiros, direcionando o crescimento do conglomerado. A governança reflete os valores familiares e a visão de longo prazo dos proprietários. <span class=\"analytical-badge\">AI</span></p><table class=\"data-table\"><thead><tr><th>Nome</th><th>Cargo</th><th>Representação</th><th>Background Resumido</th><th>Fonte</th></tr></thead><tbody><tr><td>João Naves</td><td>Conselheiro</td><td>Fundador / Proprietário</td><td>Visão estratégica e liderança do Grupo, com foco no crescimento sustentável e manutenção dos valores da empresa.</td></tr><tr><td>Vera Naves</td><td>Conselheira</td><td>Fundadora / Proprietária</td><td>Supervisão administrativa e financeira, além de liderar iniciativas de ESG e desenvolvimento de pessoas.</td></tr></tbody></table><h4>Estrutura Acionária</h4><p>A Rodonaves Transportes e Encomendas LTDA é uma Sociedade Empresária Limitada, indicando uma estrutura de capital fechado. <span class=\"verified-badge\">VF</span> A propriedade é concentrada na família Naves, que fundou e controla o negócio. Não há evidências de participação de fundos de investimento, private equity ou outros acionistas externos, caracterizando-a como uma empresa de controle familiar. <span class=\"analytical-badge\">AI</span></p><table class=\"data-table\"><thead><tr><th>Acionista</th><th>Tipo</th><th>Participação (%)</th><th>Fonte</th></tr></thead><tbody><tr><td>Família Naves</td><td>Controlador / Fundador</td><td>Majoritária (estimado) <span class=\"speculative-badge\">SA</span></td></tr></tbody></table><div class=\"callout-box\"><h5><i class=\"fas fa-users\"></i> Avaliação da Liderança</h5><p>A liderança da Rodonaves é marcada pela longa trajetória e profundo envolvimento dos fundadores, João e Vera Naves, o que garante consistência na cultura e na estratégia. <span class=\"analytical-badge\">AI</span> A experiência prática de ambos, que vivenciaram todas as fases de crescimento da empresa, é um ativo intangível de grande valor. A presença de um CEO como Régis Tiecher, focado em inovação, sugere uma preparação para os desafios da transformação digital na logística. O principal desafio futuro reside na transição da gestão fundadora para as próximas gerações ou para uma liderança profissionalizada, um ponto crítico para a perenidade de empresas familiares. <span class=\"speculative-badge\">SA</span></p></div><h3 id=\"serasa-analysis\"><span class=\"section-number\">2.4</span> Análise Serasa <span class=\"verified-badge\">VF</span></h3><p>A análise de dados cadastrais da Serasa confirma a solidez e a regularidade fiscal e operacional da empresa. As informações abaixo são baseadas no relatório extraído em 16/04/2017.</p><h4>Dados Cadastrais</h4><table class=\"data-table\"><thead><tr><th>Campo</th><th>Informação</th></tr></thead><tbody><tr><td>Data de Fundação</td><td>28/10/1980</td></tr><tr><td>CNPJ</td><td>44.914.992/0001-38</td></tr><tr><td>Situação do CNPJ</td><td>ATIVA (em 16/04/2017)</td></tr><tr><td>Endereço</td><td>R. Gen. Augusto Soares dos Santos, 550 - Parque Industrial Lagoinha, Ribeirão Preto - SP, CEP: 14095-240</td></tr><tr><td>Website</td><td>www.</td></tr><tr><td>Natureza Jurídica</td><td>Sociedade Empresária Limitada</td></tr><tr><td>Número de Empregados (2017)</td><td>1200</td></tr><tr><td>Opção Tributária</td><td>Lucro Real</td></tr><tr><td>Atividade Econômica (CNAE)</td><td>4930202 - Transporte rodoviário de carga, exceto produtos perigosos e mudanças, interestadual e internacional</td></tr><tr><td>Filiais (2017)</td><td>38</td></tr><tr><td>NIRE</td><td>35200761039</td></tr></tbody></table><h4>Dados Negativos e Ações Judiciais</h4><p>De acordo com o relatório da Serasa, a empresa não apresentava pendências financeiras ou judiciais relevantes na data da consulta.</p><table class=\"data-table\"><thead><tr><th>Tipo de Ocorrência</th><th>Quantidade</th><th>Saldo</th></tr></thead><tbody><tr><td>PEFIN</td><td>0</td><td>0</td></tr><tr><td>REFIN</td><td>0</td><td>0</td></tr><tr><td>Dívidas de Consumação</td><td>0</td><td>0</td></tr><tr><td>Cheques</td><td>0</td><td>0</td></tr><tr><td>Cartório</td><td>0</td><td>0</td></tr><tr><td>Processos Judiciais</td><td>0</td><td>0</td></tr><tr><td>Falências</td><td>0</td><td>0</td></tr></tbody></table><!-- CONDITIONAL: M&A Activity / Acquisition History (v5.8.1 - verify details rigorously) --><div id=\"acquisitions-section\" style=\"display: none;\"><h3><span class=\"section-number\">2.5</span> Atividade de M&amp;A / Histórico de Aquisições <span class=\"verified-badge\">VF</span> / <span class=\"analytical-badge\">AI</span></h3><p>A Rodonaves não possui um histórico público de aquisições de outras empresas. Sua estratégia de crescimento tem sido predominantemente orgânica, focada na expansão de sua própria malha, frota e na criação de novas unidades de negócio dentro do Grupo. <span class=\"analytical-badge\">AI</span></p><table class=\"data-table\"><thead><tr><th>Empresa Adquirida</th><th>Data</th><th>Foco de Negócio</th><th>Valor do Negócio</th><th>Racional Estratégico</th><th>Fonte</th></tr></thead><tbody><tr><td colspan=\"6\">Nenhuma atividade de M&amp;A foi identificada em fontes públicas confiáveis.</td></tr></tbody></table></div><!-- Business Architecture (McKinsey Style) --><section class=\"module\" id=\"business-architecture\"><div class=\"module-header\"><h2 class=\"module-title\"><span class=\"section-number\">3.</span> Arquitetura de Negócios</h2></div><h3><span class=\"section-number\">3.1</span> Modelo de Negócios <span class=\"analytical-badge\">AI</span></h3><div class=\"structured-diagram-container\"><div class=\"process-group\"><div class=\"process-header\">Proposta de Valor Essencial</div><p>Oferecer soluções logísticas integradas e confiáveis para o transporte de cargas em todo o território brasileiro, combinando capilaridade, tecnologia e um forte foco no relacionamento com o cliente para garantir agilidade e segurança nas entregas.</p></div><div class=\"process-group\"><div class=\"process-header\">Componentes Principais</div><div class=\"process-item\"><div class=\"process-item-header\">Segmentos de Clientes</div><p>Empresas de todos os portes (B2B) em diversos setores, como autopeças, e-commerce, farmacêutico, têxtil e agronegócio, que necessitam de transporte de carga fracionada ou dedicada.</p></div><div class=\"process-item\"><div class=\"process-item-header\">Canais de Distribuição</div><p>Rede com mais de 150 unidades próprias e parceiras, frota de veículos rodoviários e parcerias com companhias aéreas para o transporte multimodal.</p></div><div class=\"process-item\"><div class=\"process-item-header\">Relacionamento com Cliente</div><p>Atendimento próximo e humanizado através das unidades físicas, canais digitais e foco na excelência do serviço, gerando parcerias de longo prazo e reconhecimento em prêmios do setor.</p></div><div class=\"process-item\"><div class=\"process-item-header\">Recursos-Chave</div><p>Frota moderna de mais de 2.700 veículos, centros de transferência e distribuição (CTCs) automatizados, tecnologia de rastreamento e equipe com mais de 10.000 colaboradores.</p></div><div class=\"process-item\"><div class=\"process-item-header\">Atividades-Chave</div><p>Coleta, transferência, roteirização, transporte (rodoviário e aéreo), entrega de última milha (last mile), armazenagem e gerenciamento de riscos.</p></div><div class=\"process-item\"><div class=\"process-item-header\">Parcerias Estratégicas</div><p>Parcerias com companhias aéreas (ex: LATAM) para o modal aéreo e com empresas de transporte regionais para ampliar a capilaridade da malha.</p></div></div><div class=\"process-group\"><div class=\"process-header\">Aspectos Financeiros</div><div class=\"process-item\"><div class=\"process-item-header\">Estrutura de Custos</div><p>Manutenção e depreciação da frota, combustível, salários e encargos, custos de terminais e tecnologia, e seguros.</p></div><div class=\"process-item\"><div class=\"process-item-header\">Fontes de Receita</div><p>Fretes de transporte de carga fracionada (LTL), fretes de carga dedicada (FTL), serviços de logística aérea, e receitas das outras empresas do grupo (seguros, locação, etc.).</p></div></div></div><h3><span class=\"section-number\">3.2</span> Fontes de Receita <span class=\"verified-badge\">VF</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-truck-loading\"></i> Transporte de Carga Fracionada (LTL)</h5><p>Principal fonte de receita, consolidando cargas de múltiplos clientes em um único veículo para otimizar custos e rotas. Atende mais de 3.200 cidades.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-truck\"></i> Transporte de Carga Dedicada (Lotação)</h5><p>Oferece veículos exclusivos para clientes com grandes volumes de carga, garantindo agilidade e segurança para entregas ponto a ponto.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-plane-departure\"></i> Logística Aérea</h5><p>Segmento em expansão que oferece maior rapidez na entrega para longas distâncias e cargas de maior valor agregado, em parceria com as principais companhias aéreas.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-cogs\"></i> Soluções do Grupo Rodonaves</h5><p>Receitas provenientes das outras empresas do grupo, como seguros (Rodonaves Corretora), locação de veículos, serviços para o agronegócio (RTE Agro) e outros.</p></div></div><h3><span class=\"section-number\">3.3</span> Portfólio de Ofertas <span class=\"consensus-badge\">IC</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-box-open\"></i> RTE Rodonaves</h5><p>Empresa principal focada em transporte rodoviário (LTL, dedicada) e aéreo de cargas secas, com ampla capilaridade nacional.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-shield-alt\"></i> Rodonaves Corretora de Seguros</h5><p>Oferece soluções em seguros para veículos, cargas, patrimônio e vida, atendendo ao grupo e ao mercado externo.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-tractor\"></i> RTE Agro</h5><p>Unidade de negócio dedicada a soluções logísticas para o agronegócio, transportando insumos, fertilizantes e defensivos.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-car-crash\"></i> Outras Empresas</h5><p>Inclui a Rodonaves IVECO (concessionária), Rodonaves Locação de Veículos e Rodonaves Restauradora Multimarcas (funilaria e pintura).</p></div></div><h3><span class=\"section-number\">3.4</span> Estrutura Operacional <span class=\"analytical-badge\">AI</span></h3><div class=\"structured-diagram-container\"><div class=\"process-group\"><div class=\"process-header\">Framework Operacional</div></div><div class=\"process-group\"><div class=\"process-header\">Processos Principais</div><p>A operação da Rodonaves é centrada em um modelo hub-and-spoke, utilizando Centros de Transferência de Cargas (CTCs) para consolidar e distribuir mercadorias de forma eficiente.</p><div class=\"process-item\"><div class=\"process-item-header\">Coleta e Consolidação</div><div class=\"process-item-detail\">Coleta das mercadorias nos clientes</div><div class=\"process-item-detail\">Transporte para a unidade ou hub regional</div><div class=\"process-item-detail\">Triagem e consolidação por destino</div></div><div class=\"process-item\"><div class=\"process-item-header\">Transferência (Linha Tronco)</div><div class=\"process-item-detail\">Transporte de grandes volumes entre os principais hubs e CTCs do país</div><div class=\"process-item-detail\">Operação 24/7 para garantir o fluxo contínuo</div></div><div class=\"process-item\"><div class=\"process-item-header\">Distribuição Final (Last Mile)</div><div class=\"process-item-detail\">Desconsolidação da carga no hub de destino</div><div class=\"process-item-detail\">Roteirização para entrega final ao destinatário</div></div></div><div class=\"process-group\"><div class=\"process-header\">Sistemas de Suporte</div><p>A eficiência operacional é suportada por investimentos contínuos em tecnologia e infraestrutura.</p><div class=\"process-item\"><div class=\"process-item-header\">Tecnologia da Informação</div><div class=\"process-item-detail\">Software de gerenciamento de transporte (TMS)</div><div class=\"process-item-detail\">Sistemas de triagem automatizada (sorters)</div><div class=\"process-item-detail\">Rastreamento em tempo real</div></div><div class=\"process-item\"><div class=\"process-item-header\">Gestão de Frota</div><div class=\"process-item-detail\">Manutenção periódica rigorosa</div><div class=\"process-item-detail\">Renovação constante da frota</div><div class=\"process-item-detail\">Monitoramento de desempenho e consumo</div></div></div></div><div class=\"callout-box\"><h5>Implicações Estratégicas</h5><p>O modelo de negócios diversificado do Grupo Rodonaves cria resiliência e múltiplas fontes de receita, diminuindo a dependência de um único serviço. <span class=\"analytical-badge\">AI</span> A forte integração entre as empresas do grupo (ex: seguro da própria carga, manutenção da própria frota) provavelmente gera sinergias de custo e controle de qualidade. <span class=\"speculative-badge\">SA</span> A expansão para a logística aérea e para o setor agro são movimentos estratégicos que posicionam a empresa em mercados de alto crescimento, embora com maior complexidade operacional. <span class=\"analytical-badge\">AI</span></p></div></section><!-- Market Positioning --><section class=\"module\" id=\"market-positioning\"><div class=\"module-header\"><h2 class=\"module-title\"><span class=\"section-number\">4.</span> Posicionamento de Mercado</h2></div><h3><span class=\"section-number\">4.1</span> Cenário Competitivo <span class=\"consensus-badge\">IC</span> / <span class=\"analytical-badge\">AI</span></h3><p>O mercado brasileiro de transporte de carga fracionada (LTL) é altamente competitivo e fragmentado, com players nacionais e multinacionais. A Rodonaves se posiciona como uma das líderes, destacando-se pela qualidade do serviço e forte presença em nichos como o de autopeças. Seus principais concorrentes incluem empresas com extensa malha nacional como Braspress e JSL, além de gigantes globais como a DHL e a TNT (FedEx). A competição se acirra em fatores como prazo de entrega, custo, capilaridade da rede e tecnologia de rastreamento. <span class=\"analytical-badge\">AI</span></p><div class=\"competitor-matrix-container\"><h4>Matriz de Posicionamento Competitivo (Carga Fracionada - Brasil) <span class=\"analytical-badge\">AI</span></h4><p class=\"competitor-matrix-description\"> A matriz avalia os concorrentes com base na Abrangência da Malha Nacional (Eixo X) e na Diversificação de Serviços e Tecnologia (Eixo Y). A Rodonaves se posiciona como um player forte em ambos os eixos, com uma malha robusta e um portfólio de serviços diversificado através de seu grupo. </p><div class=\"matrix\" id=\"competitor-matrix\"><div class=\"axis x-axis\"></div><div class=\"axis y-axis\"></div><div class=\"axis-label x-axis-label-low\">Foco Regional</div><div class=\"axis-label x-axis-label-high\">Malha Nacional Ampla</div><div class=\"axis-label y-axis-label-low\">Serviço Básico</div><div class=\"axis-label y-axis-label-high\">Alta Tecnologia e Serviços Diversificados</div><div class=\"quadrant-label q-top-right\">Líderes de Mercado</div><div class=\"quadrant-label q-top-left\">Players de Nicho/Tecnologia</div><div class=\"quadrant-label q-bottom-right\">Gigantes Nacionais</div><div class=\"quadrant-label q-bottom-left\">Operadores Regionais</div><div class=\"dot company\" style=\"top: 30%; left: 75%;\" title=\"Rodonaves\"><span class=\"dot-text\">Rodo</span></div><div class=\"dot\" style=\"top: 40%; left: 85%;\" title=\"Braspress\"><span class=\"dot-text\">Braspress</span></div><div class=\"dot\" style=\"top: 25%; left: 90%;\" title=\"JSL\"><span class=\"dot-text\">JSL</span></div><div class=\"dot\" style=\"top: 20%; left: 65%;\" title=\"TNT (FedEx)\"><span class=\"dot-text\">TNT</span></div><div class=\"dot\" style=\"top: 60%; left: 40%;\" title=\"Patrus Transportes\"><span class=\"dot-text\">Patrus</span></div><div class=\"dot\" style=\"top: 75%; left: 80%;\" title=\"Sequoia\"><span class=\"dot-text\">Sequoia</span></div></div><div class=\"matrix-legend\"><div class=\"matrix-legend-item\"><div class=\"matrix-legend-color\" style=\"background-color: #0D3D70;\"></div><div>Rodonaves</div></div><div class=\"matrix-legend-item\"><div class=\"matrix-legend-color\" style=\"background-color: rgba(74, 144, 226, 0.7);\"></div><div>Concorrentes</div></div></div></div><h3><span class=\"section-number\">4.2</span> Análise de Concorrentes</h3><h4>Transporte Rodoviário de Cargas (LTL/FTL)</h4><table class=\"data-table\"><thead><tr><th>Concorrente</th><th>Sede</th><th>Foco / Pontos Fortes</th><th>Sobreposição Geográfica</th><th>Fonte</th></tr></thead><tbody><tr class=\"subject-company highlight\"><td>Rodonaves</td><td>Ribeirão Preto, SP</td><td>Forte no Sudeste, Sul e Centro-Oeste; especialização em autopeças; grupo de serviços integrados.</td><td>BR Nacional</td></tr><tr><td>Braspress</td><td>São Paulo, SP</td><td>Uma das maiores malhas do país para encomendas; forte investimento em automação.</td><td>BR Nacional</td></tr><tr><td>JSL</td><td>Mogi das Cruzes, SP</td><td>Gigante de logística com portfólio extremamente diversificado (incluindo locação, concessionárias, etc.); forte em contratos dedicados.</td><td>América Latina</td></tr><tr><td>TNT (FedEx)</td><td>Global / São Paulo, SP</td><td>Rede global; forte em transporte expresso e aéreo; integração com malha internacional da FedEx.</td><td>Global</td></tr><tr><td>Patrus Transportes</td><td>Contagem, MG</td><td>Forte presença em Minas Gerais e Sudeste; investimento em tecnologia e sustentabilidade.</td><td>BR Nacional</td></tr></tbody></table><h3><span class=\"section-number\">4.3</span> Segmentos de Clientes <span class=\"verified-badge\">VF</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-car-battery\"></i> Indústria de Autopeças</h5><p>Principal segmento de atuação, onde a empresa é consistentemente reconhecida com prêmios de melhor transportadora, indicando forte market share e especialização.</p><p><strong>Clientes Notáveis:</strong> Stanley Black &amp; Decker, CNH Industrial.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-pills\"></i> Farmacêutico e Cosméticos</h5><p>Setor que exige cuidados especiais com manuseio, temperatura e prazos, áreas onde a empresa investe para garantir a qualidade.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-tshirt\"></i> Têxtil e Varejo</h5><p>Atende às demandas do varejo e da indústria têxtil, que necessitam de agilidade na reposição de estoques e distribuição para pontos de venda.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-shopping-cart\"></i> E-commerce</h5><p>Segmento em crescimento que demanda entregas rápidas e rastreabilidade ponta a ponta, impulsionando investimentos em tecnologia e na operação de última milha.</p></div></div><h3><span class=\"section-number\">4.4</span> Tendências de Mercado <span class=\"consensus-badge\">IC</span> / <span class=\"speculative-badge\">SA</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-robot\"></i> Digitalização e Automação</h5><p>Adoção de IA, IoT e automação para otimizar rotas, gerenciar estoques e automatizar centros de distribuição é crucial para a eficiência. A Rodonaves já investe em sorters automatizados.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-leaf\"></i> Sustentabilidade (ESG)</h5><p>Crescente pressão por operações logísticas mais sustentáveis, incluindo frotas com menor emissão de carbono e otimização de rotas para reduzir o consumo de combustível.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-shipping-fast\"></i> Logística de Última Milha (Last Mile)</h5><p>Com o boom do e-commerce, a eficiência e a rapidez na entrega final tornaram-se um diferencial competitivo chave, exigindo soluções inovadoras.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-globe-americas\"></i> Resiliência da Cadeia de Suprimentos</h5><p>Empresas buscam parceiros logísticos que ofereçam visibilidade e resiliência para mitigar riscos de disrupções, valorizando a diversificação de modais e a análise preditiva.</p></div></div></section><!-- Performance Analytics --><section class=\"module\" id=\"performance-analytics\"><div class=\"module-header\"><h2 class=\"module-title\"><span class=\"section-number\">5.</span> Análise de Performance</h2></div><h3><span class=\"section-number\">5.1</span> Métricas Operacionais Chave <span class=\"consensus-badge\">IC</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-truck-moving\"></i> Tamanho da Frota</h5><p>Mais de 2.700 veículos (próprios e parceiros), indicando uma grande capacidade operacional.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-map-marked-alt\"></i> Capilaridade</h5><p>Atendimento a mais de 3.200 cidades no Brasil, através de mais de 150 unidades de atendimento.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-industry\"></i> Capacidade de Triagem</h5><p>O centro de Americana (SP) pode processar 8.000 volumes por hora, demonstrando alto nível de automação.</p></div><div class=\"info-card\"><h5><i class=\"fas fa-users-cog\"></i> Força de Trabalho</h5><p>O Grupo Rodonaves emprega mais de 10.000 colaboradores diretos e indiretos, um indicador da escala da operação.</p></div></div><h3><span class=\"section-number\">5.2</span> Desempenho Financeiro <span class=\"verified-badge\">VF</span></h3><p>Como uma empresa de capital fechado, a Rodonaves não divulga publicamente suas demonstrações financeiras detalhadas. Contudo, reportagens indicam um faturamento que atingiu a marca de R$ 2 bilhões, demonstrando um crescimento expressivo e uma posição financeira robusta. A empresa planeja investir mais de R$ 250 milhões até 2025 para dobrar sua estrutura em estados estratégicos, sinalizando forte geração de caixa e confiança na expansão futura. A ausência de dívidas e protestos no relatório Serasa corrobora a saúde financeira da companhia. <span class=\"analytical-badge\">AI</span></p><div class=\"financial-chart-container\"><h5>Evolução de Métricas Financeiras (Ilustrativo) <span class=\"speculative-badge\">SA</span></h5><canvas id=\"financial-metric-chart\"></canvas></div><p class=\"chart-explanatory-text\"> Nota: Gráfico ilustra o crescimento do faturamento com base em dados públicos limitados. Os valores exatos de receita e EBITDA não são divulgados. </p><div class=\"chart-fallback-container\" id=\"financial-metric-chart-fallback\"></div><h3 id=\"balancos\"><span class=\"section-number\">5.3</span> Balanços</h3><p>Nenhum dado de balanço (Balanços) está disponível publicamente.</p><h3><span class=\"section-number\">5.4</span> Trajetória de Crescimento <span class=\"analytical-badge\">AI</span></h3><p>A trajetória de crescimento da Rodonaves é um caso clássico de bootstrapping, onde o crescimento é financiado pelo próprio fluxo de caixa da operação. <span class=\"analytical-badge\">AI</span> A empresa passou de uma bicicleta para uma frota de milhares de veículos através de reinvestimentos constantes. A estratégia de crescimento é focada na expansão orgânica: abertura de novas filiais, aumento da frota e investimentos em tecnologia. A criação do Grupo Rodonaves representa uma diversificação estratégica, adicionando novas linhas de receita e fortalecendo o ecossistema de negócios. A entrada no modal aéreo em 2020 foi um passo importante para se tornar um provedor de logística multimodal, atendendo a uma demanda crescente por entregas mais rápidas.</p><h4>Histórico de Financiamento <span class=\"verified-badge\">VF</span></h4><p>A Rodonaves é uma empresa de capital fechado e não possui histórico de captação de recursos através de rodadas de investimento (venture capital, private equity). O crescimento da empresa foi financiado por capital próprio e reinvestimento dos lucros. <span class=\"analytical-badge\">AI</span></p><table class=\"data-table funding-table\"><thead><tr><th>Data</th><th>Tipo</th><th>Valor</th><th>Investidores</th><th>Detalhes</th><th>Fonte</th></tr></thead><tbody><tr><td colspan=\"6\">Dados detalhados sobre financiamento não encontrados ou não verificados em fontes públicas confiáveis. A empresa adota um modelo de crescimento autofinanciado.</td></tr></tbody></table><div class=\"callout-box\"><h5><i class=\"fas fa-handshake\"></i> Análise de Investidores</h5><p>A estrutura de propriedade da Rodonaves é centrada em seus fundadores, a família Naves. <span class=\"verified-badge\">VF</span> Isso implica que não há investidores externos pressionando por resultados de curto prazo ou por uma estratégia de saída (exit). As decisões de investimento são, portanto, provavelmente guiadas por uma visão de longo prazo e pela manutenção do controle e da cultura da empresa. <span class=\"speculative-badge\">SA</span> Essa independência financeira permite que a empresa navegue por ciclos econômicos com maior autonomia, mas também limita o acesso a grandes volumes de capital que poderiam acelerar a expansão de forma inorgânica (via M&amp;A). <span class=\"analytical-badge\">AI</span></p></div><h3><span class=\"section-number\">5.5</span> Unit Economics (Indicadores) <span class=\"analytical-badge\">AI</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-dollar-sign\"></i> Receita por Veículo</h5><p>Métrica chave que indica a eficiência na utilização da frota. Otimizada através de roteirização inteligente e alta taxa de ocupação. <span class=\"analytical-badge\">AI</span></p></div><div class=\"info-card\"><h5><i class=\"fas fa-gas-pump\"></i> Custo por KM Rodado</h5><p>Principal componente de custo variável, influenciado pelo preço do combustível, manutenção e eficiência dos veículos. <span class=\"analytical-badge\">AI</span></p></div><div class=\"info-card\"><h5><i class=\"fas fa-boxes\"></i> Custo por Volume Processado</h5><p>Reflete a eficiência dos centros de distribuição. Investimentos em automação, como os sorters, visam reduzir este indicador. <span class=\"analytical-badge\">AI</span></p></div><div class=\"info-card\"><h5><i class=\"fas fa-user-plus\"></i> Custo de Aquisição de Cliente (CAC)</h5><p>Embora não público, a forte reputação e os prêmios no setor de autopeças sugerem um CAC potencialmente menor nesse nicho devido à autoridade da marca. <span class=\"speculative-badge\">SA</span></p></div></div></section><!-- Public Market Overview (CONDITIONAL: Only if Public) --><section class=\"module\" id=\"public-market-overview\" style=\"display: none;\"><div class=\"module-header\"><h2 class=\"module-title\"><span class=\"section-number\">6.</span> Visão Geral do Mercado de Capitais</h2></div><p>A</p></section>"
+              },
+              {
+                "text": "Rodonaves é uma empresa de capital fechado e não possui ações negociadas em bolsa de valores. <!-- Strategic Outlook --><section class=\"module\" id=\"strategic-outlook\"><div class=\"module-header\"><h2 class=\"module-title\"><span class=\"section-number\">6.</span> Perspectivas Estratégicas</h2></div><h3><span class=\"section-number\">6.1</span> Síntese SWOT <span class=\"analytical-badge\">AI</span></h3><div class=\"swot-matrix-container\"><div class=\"swot-matrix\"><div class=\"swot-quadrant strengths\"><h5><i class=\"fas fa-thumbs-up\"></i> Forças</h5><ul><li>Marca forte e reconhecida, especialmente no setor de autopeças.</li><li>Extensa capilaridade nacional com mais de 150 unidades.</li><li>Estrutura de grupo diversificada que gera sinergias.</li><li>Liderança experiente e estável com os fundadores à frente do negócio.</li><li>Saúde financeira sólida com crescimento autofinanciado.</li></ul></div><div class=\"swot-quadrant weaknesses\"><h5><i class=\"fas fa-thumbs-down\"></i> Fraquezas</h5><ul><li>Alta dependência do modal rodoviário, sujeito a flutuações no preço dos combustíveis e condições das estradas.</li><li>Governança corporativa concentrada na família, com potenciais desafios de sucessão. <span class=\"speculative-badge\">SA</span></li><li>Crescimento primariamente orgânico pode ser mais lento em comparação com concorrentes que utilizam M&amp;A. <span class=\"analytical-badge\">AI</span></li></ul></div><div class=\"swot-quadrant opportunities\"><h5><i class=\"fas fa-search-plus\"></i> Oportunidades</h5><ul><li>Expansão contínua do e-commerce no Brasil, demandando logística eficiente.</li><li>Crescimento do agronegócio, alavancando a RTE Agro.</li><li>Aumento da demanda por soluções logísticas multimodais (aéreo-rodoviário).</li><li>Oferta de serviços de logística 4.0, com maior integração de tecnologia e análise de dados.</li></ul></div><div class=\"swot-quadrant threats\"><h5><i class=\"fas fa-exclamation-triangle\"></i> Ameaças</h5><ul><li>Alta competitividade no setor de logística com players capitalizados.</li><li>Aumento dos custos operacionais (combustível, mão de obra, pedágios).</li><li>Instabilidade econômica e política no Brasil, impactando o volume de cargas.</li><li>Surgimento de \"logtechs\" com modelos de negócio disruptivos.</li></ul></div></div></div><h3><span class=\"section-number\">6.2</span> Questões Estratégicas Chave <span class=\"speculative-badge\">SA</span></h3><ul><li>Como a Rodonaves pode acelerar sua transformação digital para competir com as \"logtechs\" e otimizar ainda mais suas operações?</li><li>Qual é o plano de sucessão para garantir a continuidade da liderança e da cultura da empresa a longo prazo?</li><li>A empresa considerará uma estratégia de M&amp;A para entrar em novos mercados ou adquirir tecnologias, ou manterá o foco no crescimento orgânico?</li><li>Como expandir a operação aérea para que ela represente uma parcela mais significativa da receita e reduza a dependência do modal rodoviário?</li></ul><h3><span class=\"section-number\">6.3</span> Opções Estratégicas <span class=\"speculative-badge\">SA</span></h3><ol><li><strong>Acelerar a Expansão Multimodal:</strong> Investir agressivamente na expansão da malha aérea e explorar parcerias para o transporte ferroviário e de cabotagem, tornando-se um provedor logístico verdadeiramente integrado.</li><li><strong>Digitalização e Logística 4.0:</strong> Adquirir ou desenvolver internamente tecnologias de ponta em IA para otimização de rotas, análise preditiva de demanda e automação de armazéns, oferecendo serviços de maior valor agregado.</li><li><strong>Profissionalização da Governança:</strong> Iniciar um processo estruturado de governança corporativa, com a criação de um conselho de administração com membros independentes para preparar a empresa para o futuro e uma eventual transição de liderança.</li><li><strong>M&amp;A Estratégico:</strong> Realizar aquisições seletivas de empresas de tecnologia logística (logtechs) ou de players regionais para consolidar mercados e absorver inovação de forma mais rápida.</li></ol><h3><span class=\"section-number\">6.4</span> Avaliação de Riscos <span class=\"analytical-badge\">AI</span></h3><table class=\"data-table risk-table\"><thead><tr><th>Risco</th><th>Descrição</th><th>Probabilidade</th><th>Impacto</th><th>Mitigação / Comentários</th></tr></thead><tbody><tr><td>Dependência Econômica</td><td>A demanda por transporte de cargas é altamente correlacionada com o PIB. Uma recessão econômica no Brasil pode reduzir significativamente os volumes e as receitas.</td><td><span class=\"risk-badge risk-medium\">Média</span></td><td><span class=\"risk-badge risk-high\">Alto</span></td><td class=\"risk-mitigation\"><ul><li>Diversificação de serviços (Grupo Rodonaves).</li><li>Foco em setores resilientes como agronegócio e farmacêutico.</li></ul></td></tr><tr><td>Custos Operacionais</td><td>A volatilidade nos preços do diesel e o aumento dos custos com pessoal e pedágios podem comprimir as margens.</td><td><span class=\"risk-badge risk-high\">Alto</span></td><td><span class=\"risk-badge risk-medium-high\">Médio-Alto</span></td><td class=\"risk-mitigation\"><ul><li>Investimento em frota mais eficiente.</li><li>Otimização de rotas com tecnologia.</li><li>Repasse de custos nos contratos de frete.</li></ul></td></tr><tr><td>Concorrência</td><td>Intensificação da competição por preço e prazo, especialmente com a entrada de novos players capitalizados e logtechs.</td><td><span class=\"risk-badge risk-high\">Alto</span></td><td><span class=\"risk-badge risk-medium\">Média</span></td><td class=\"risk-mitigation\"><ul><li>Fidelização de clientes através da qualidade do serviço.</li><li>Investimento em tecnologia para diferenciação.</li><li>Foco em nichos de alta especialização.</li></ul></td></tr><tr><td>Sucessão e Governança</td><td>Riscos associados à transição de liderança em uma empresa de controle familiar, podendo afetar a estratégia e a operação.</td><td><span class=\"risk-badge risk-medium-low\">Média-Baixa</span></td><td><span class=\"risk-badge risk-high\">Alto</span></td><td class=\"risk-mitigation\"><ul><li>Desenvolvimento de lideranças internas.</li><li>Implementação gradual de práticas de governança corporativa.</li></ul></td></tr></tbody></table><h3><span class=\"section-number\">6.5</span> Considerações de Valuation <span class=\"analytical-badge\">AI</span></h3><p>A avaliação de uma empresa de capital fechado como a Rodonaves é desafiadora devido à falta de dados financeiros públicos. Uma abordagem de Múltiplos de Mercado (Empresas Comparáveis) seria a mais indicada. <span class=\"analytical-badge\">AI</span> Utilizando concorrentes de capital aberto como a JSL (JSLG3), seria possível aplicar múltiplos como EV/EBITDA ou P/L sobre os números estimados da Rodonaves. Dado o histórico de rentabilidade e a marca forte, a Rodonaves poderia comandar um prêmio em relação a alguns pares, mas um desconto em relação a empresas com maior diversificação ou escala global. <span class=\"speculative-badge\">SA</span> Uma análise por Fluxo de Caixa Descontado (DCF) seria mais precisa, mas dependeria de projeções internas de receita, custos e investimentos. <span class=\"analytical-badge\">AI</span></p><h3><span class=\"section-number\">6.6</span> Potenciais Vias de Saída (Exit Pathways) <span class=\"speculative-badge\">SA</span></h3><p>Dada a forte cultura familiar e o controle dos fundadores, uma saída a curto ou médio prazo parece improvável. <span class=\"speculative-badge\">SA</span> No entanto, algumas vias futuras poderiam ser consideradas: <br/><strong>1. Venda Estratégica:</strong> A aquisição por um grande player global de logística que deseje consolidar sua presença no Brasil seria uma opção. A forte marca e a malha da Rodonaves seriam ativos valiosos. <br/><strong>2. Fusão com um Concorrente Nacional:</strong> Uma fusão com outro grande player brasileiro poderia criar um líder de mercado com escala para competir globalmente. <br/><strong>3. Abertura de Capital (IPO):</strong> A longo prazo, um IPO na B3 poderia ser uma forma de levantar capital para uma expansão mais agressiva e fornecer liquidez para a família, mas exigiria uma reestruturação significativa na governança corporativa. <br/><strong>4. Sucessão Familiar:</strong> A via mais provável no médio prazo é a continuidade do negócio sob a gestão da próxima geração da família Naves, mantendo o capital fechado. </p></section><!-- Reference Materials --><section class=\"module\" id=\"reference-materials\"><div class=\"module-header\"><h2 class=\"module-title\"><span class=\"section-number\">7.</span> Materiais de Referência</h2></div><h3><span class=\"section-number\">7.1</span> Fontes <span class=\"verified-badge\">VF</span></h3><div class=\"sources-table-container\"><table class=\"sources-table\"><thead><tr><th>ID</th><th>Tipo</th><th>Título / Descrição</th><th>URL / Acesso</th><th>Data</th><th>Confiabilidade</th></tr></thead><tbody><tr class=\"source-category-header\"><td colspan=\"6\">Website da Empresa e Afiliados</td></tr><tr ><td>4</td><td>Website</td><td>Vera Naves é reconhecida em premiação inédita na categoria Mulheres na Logística</td><td><a href=\"https://www./imprensa/vera-naves-e-reconhecida-em-premiacao-inedita-na-categoria-mulheres-na-logistica/\" target=\"_blank\"></a></td><td>04/10/2024</td><td><span class=\"reliability high\">Alta</span></td></tr><tr ><td>5</td><td>Website</td><td>Rodonaves é a melhor transportadora pela 13ª vez consecutiva</td><td><a href=\"https://www./imprensa/rodonaves-e-a-melhor-transportadora-pela-13a-vez-consecutiva/\" target=\"_blank\"></a></td><td>28/11/2024</td><td><span class=\"reliability high\">Alta</span></td></tr><tr ><td>17</td><td>Website</td><td>Unidades - Rodonaves (Confirmação de CNPJ e Sede)</td><td><a href=\"https://www./unidades/\" target=\"_blank\"></a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability high\">Alta</span></td></tr><tr ><td>20</td><td>Website</td><td>Rodonaves é reconhecida no Prêmio Vez &amp; Voz com o programa “Mulheres em Movimento”</td><td><a href=\"https://www./imprensa/rodonaves-e-reconhecida-no-premio-vez-voz-com-o-programa-mulheres-em-movimento/\" target=\"_blank\"></a></td><td>29/04/2025</td><td><span class=\"reliability high\">Alta</span></td></tr><tr ><td>22</td><td>Website</td><td>Grupo Rodonaves - Portal de Carreiras (História da Empresa)</td><td><a href=\"\" target=\"_blank\"></a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability high\">Alta</span></td></tr><tr ><td>29</td><td>Website</td><td>Quem somos - Rodonaves (História e Operações)</td><td><a href=\"https://www./quem-somos/\" target=\"_blank\"></a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability high\">Alta</span></td></tr><tr ><td>35</td><td>Website</td><td>Sobre o Grupo - Rodonaves (Empresas do Grupo)</td><td><a href=\"\" target=\"_blank\"></a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability high\">Alta</span></td></tr><tr ><td>45</td><td>Website</td><td>Rodonaves expands its operations and starts air delivery project - Aeroflap</td><td><a href=\"\" target=\"_blank\"></a></td><td>23/11/2020</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr class=\"source-category-header\"><td colspan=\"6\">Fontes de Mercado e Notícias</td></tr><tr ><td>2</td><td>Notícia</td><td>João e Vera Naves - casal movido pelo trabalho e pela fé - Revide</td><td><a href=\"\" target=\"_blank\"></a></td><td>01/12/2023</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr ><td>7</td><td>Notícia</td><td>RTE Rodonaves recebe reconhecimentos por excelência - NTC&amp;Logística</td><td><a href=\"https://www.ntcelogistica.org.br/rte-rodonaves-recebe-reconhecimentos-por-excelencia-em-atendimento-e-performance-de-entregas/19/04/2023/\" target=\"_blank\">ntcelogistica.org.br</a></td><td>19/04/2023</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr ><td>8</td><td>Notícia</td><td>DOS PEDAIS DA BICICLETA A UMA FROTA DE TRANSPORTES - a trajetória de João Naves</td><td><a href=\"\" target=\"_blank\"></a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr ><td>13</td><td>Notícia</td><td>Vera Naves: “Meu desejo é que nenhuma mulher se sinta diminuída” - Vez &amp; Voz</td><td><a href=\"https://vezevoz.com.br/vera-naves-meu-desejo-e-que-nenhuma-mulher-se-sinta-diminuida-pelo-fato-de-ser-mulher/\" target=\"_blank\">vezevoz.com.br</a></td><td>09/05/2024</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr ><td>14</td><td>Notícia</td><td>Vera e João Naves - Revide</td><td><a href=\"https:///editorias/especial/vera-e-joao-naves/\" target=\"_blank\"></a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr ><td>18</td><td>Notícia</td><td>We came to CEIBS to prepare ourselves for the challenges ahead!</td><td><a href=\"\" target=\"_blank\"></a></td><td>26/11/2024</td><td><span class=\"reliability medium\">Média</span></td></tr><tr ><td>27</td><td>Notícia</td><td>Rodonaves é eleita a melhor transportadora do ano - Portal Logweb</td><td><a href=\"https://logweb.com.br/rodonaves-e-eleita-a-melhor-transportadora-do-ano/\" target=\"_blank\">logweb.com.br</a></td><td>04/09/2024</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr ><td>28</td><td>Notícia</td><td>Biografia de João Naves é lançada em Ribeirão Preto - Alpha Notícias</td><td><a href=\"\" target=\"_blank\"></a></td><td>10/02/2015</td><td><span class=\"reliability medium\">Média</span></td></tr><tr ><td>32</td><td>Notícia</td><td>João Doria entrevista João Naves - Band</td><td><a href=\"\" target=\"_blank\"></a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability medium\">Média</span></td></tr><tr ><td>37</td><td>Notícia</td><td>Ele começou a Rodonaves com bicicleta. Agora, fatura R$ 2 bilhões - Exame</td><td><a href=\"https://exame.com/negocios/ele-comecou-a-rodonaves-entregando-cargas-com-bicicleta-agora-fatura-r-2-bilhoes-e-investe-no-sul/\" target=\"_blank\">exame.com</a></td><td>24/08/2023</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr class=\"source-category-header\"><td colspan=\"6\">Vídeos e Mídia</td></tr><tr ><td>23</td><td>Vídeo</td><td>VÍDEO INSTITUCIONAL - RTE RODONAVES</td><td><a href=\"https://www.youtube.com/watch?v=a-rXyL9v_qI\" target=\"_blank\">youtube.com</a></td><td>27/03/2017</td><td><span class=\"reliability high\">Alta</span></td></tr><tr ><td>34</td><td>Vídeo</td><td>RTE Rodonaves, São Paulo - Dematic</td><td><a href=\"https://www.youtube.com/watch?v=2_gY8g_Z2q8\" target=\"_blank\">youtube.com</a></td><td>24/11/2017</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr class=\"source-category-header\"><td colspan=\"6\">Relatórios e Análises de Mercado</td></tr><tr ><td>3</td><td>Relatório</td><td>Conheça as 11 Tendências da Logística em 2024 - Sydle</td><td><a href=\"https://www.sydle.com/br/blog/tendencias-da-logistica-627d59a53039a13635203a7c\" target=\"_blank\">sydle.com</a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability medium\">Média</span></td></tr><tr ><td>6</td><td>Relatório</td><td>10 tendências de logística para 2024 - Benner</td><td><a href=\"\" target=\"_blank\"></a></td><td>30/01/2024</td><td><span class=\"reliability medium\">Média</span></td></tr><tr ><td>9</td><td>Relatório</td><td>Área de Transportes da DHL Supply Chain dobra de tamanho - ABOL</td><td><a href=\"https://www.abolbrasil.org.br/noticias/area-de-transportes-da-dhl-supply-chain-dobra-de-tamanho-e-lanca-matriz-em-jandira-sp/\" target=\"_blank\">abolbrasil.org.br</a></td><td>22/08/2022</td><td><span class=\"reliability medium\">Média</span></td></tr><tr ><td>24</td><td>Relatório</td><td>LTL: o que é, diferença para o FTL, vantagens e mais - TOTVS</td><td><a href=\"\" target=\"_blank\"></a></td><td>04/06/2024</td><td><span class=\"reliability medium\">Média</span></td></tr><tr ><td>30</td><td>Relatório</td><td>J&amp;T Express (1519 HK) - CMB International</td><td><a href=\"https:///download.php?id=100996&amp;lang=en-us\" target=\"_blank\"></a></td><td>19/12/2023</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr><tr ><td>33</td><td>Relatório</td><td>Brazil Road Freight Transport Market Size &amp; Share Analysis - Mordor Intelligence</td><td><a href=\"https://www.mordorintelligence.com/industry-reports/brazil-road-freight-transport-market\" target=\"_blank\">mordorintelligence.com</a></td><td>01/07/2025 (coleta)</td><td><span class=\"reliability medium-high\">Média-Alta</span></td></tr></tbody></table></div><h3 id=\"section-8.2\"><span class=\"section-number\">7.2</span> Sistema de Verificação e Metodologia</h3><div class=\"verification-system-container\"><div class=\"verification-grid\"><div class=\"verification-column\"><h4>Classificação da Informação</h4><table class=\"verification-system-table\"><thead><tr><th>Código</th><th>Descrição</th></tr></thead><tbody><tr><td class=\"badge-cell\"><span class=\"verified-badge\">VF</span></td><td class=\"description-cell\"><strong>Fato Verificado</strong><br/>Informação factual confirmada pelos protocolos rigorosos `*v5.8.1*` (para Fatos Fundacionais e Críticos Financeiros) ou por fontes oficiais / múltiplas fontes confiáveis independentes *diretamente referenciando a empresa alvo* (para outros fatos).</td></tr><tr><td class=\"badge-cell\"><span class=\"consensus-badge\">IC</span></td><td class=\"description-cell\"><strong>Consenso da Indústria</strong><br/>Informação amplamente aceita ou reportada por fontes setoriais (normas, benchmarks) não específica da empresa, salvo corroboração VF.</td></tr><tr><td class=\"badge-cell\"><span class=\"analytical-badge\">AI</span></td><td class=\"description-cell\"><strong>Interpretação Analítica</strong><br/>Análise ou conclusão *diretamente derivada* de dados VF/IC (ex: cálculo de CAGR, resumo de SWOT verificado).</td></tr><tr><td class=\"badge-cell\"><span class=\"speculative-badge\">SA</span></td><td class=\"description-cell\"><strong>Avaliação Especulativa</strong><br/>Informação prospectiva, *inferência* de motivos não declarados (não permitido para fatos críticos), valuation sem dados públicos, projeções sem guidance, ou baseada em fontes de baixa confiabilidade/alta incerteza.</td></tr></tbody></table></div><div class=\"verification-column\"><h4>Confiabilidade das Fontes</h4><table class=\"verification-system-table\"><thead><tr><th>Nível</th><th>Descrição</th></tr></thead><tbody><tr><td><span class=\"reliability high\">Alta</span></td><td>Documentos oficiais da empresa (website, registros, press releases), registros regulatórios, demonstrações auditadas, bases de dados financeiras reputáveis (com verificação cruzada).</td></tr><tr><td><span class=\"reliability medium-high\">Média-Alta</span></td><td>Publicações financeiras estabelecidas (Bloomberg, Reuters, Valor, NeoFeed, FT), analistas reconhecidos (com fontes claras).</td></tr><tr><td><span class=\"reliability medium\">Média</span></td><td>Publicações setoriais, entrevistas verificáveis, mídia geral com fontes claras, plataformas profissionais (LinkedIn - para cargos/bios, não para finanças).</td></tr><tr><td><span class=\"reliability medium-low\">Média-Baixa</span></td><td>Mídia geral sem fontes detalhadas, conteúdo de mídia social de contas oficiais (usar com cautela).</td></tr><tr><td><span class=\"reliability low\">Baixa</span></td><td>Fontes anônimas, fóruns, blogs não reputáveis, possíveis conflitos de interesse não declarados.</td></tr></tbody></table></div></div><div class=\"methodology-section\" style=\"margin-top: var(--space-8);\"><h4>Metodologia de Pesquisa (`*v5.8.1*` Atualizada)</h4><p>O processo de verificação envolve cruzamento de informações e avaliação da credibilidade da fonte. **Para Fatos Fundacionais (Fundador, Data, Nome Legal, Sede, CEO) e Críticos Financeiros (Investidores Principais, Detalhes Chave de M&amp;A/Funding), protocolos de verificação `*v5.8.1*` são mandatórios, exigindo confirmação primária ou multi-fonte secundária explícita, verificação negativa e proibição de inferências.** Contradições em fatos críticos resultam em interrupção e revisão manual. Buscas ativas de desambiguação são realizadas para distinguir a empresa alvo, seus líderes e investidores de outras entidades. A pesquisa segue um processo iterativo com verificação rigorosa de fatos críticos na primeira camada.</p></div></div><h3><span class=\"section-number\">7.3</span> Disclaimer</h3><div class=\"legal-disclaimer\" style=\"background-color: var(--background-alt); border-radius: var(--section-radius); border: 1px solid var(--border-light); color: var(--text-body); margin-top: var(--space-6);\"><i class=\"fas fa-exclamation-triangle disclaimer-icon\" style=\"color: var(--warning-500);\"></i><div class=\"disclaimer-content\"><h5 class=\"disclaimer-title\" style=\"color: var(--text-dark);\">Aviso Legal</h5><p class=\"disclaimer-text\" style=\"color: var(--text-body);\"> Este relatório foi gerado pelo OP OASIS Engine (sistema de inteligência artificial) baseado exclusivamente em dados públicos disponíveis até a data de elaboração. As informações foram processadas algoritmicamente, podendo conter imprecisões ou desatualizações devido às limitações das fontes públicas e da tecnologia de IA. **Embora protocolos rigorosos sejam aplicados (v5.8.1), incluindo verificação multi-fonte para fatos críticos, erros factuais ou alucinações ainda podem ocorrer.** Este documento não constitui recomendação de investimento, oferta de valores mobiliários ou aconselhamento profissional de qualquer natureza. As análises (AI) e avaliações especulativas (SA) estão sujeitas a incertezas inerentes aos sistemas automatizados. O destinatário deve realizar sua própria due diligence antes de tomar decisões baseadas neste conteúdo. A OP Oasis não assume responsabilidade por perdas, danos ou prejuízos decorrentes do uso direto ou indireto das informações aqui apresentadas. </p></div></div></section><!-- Footer styling --><div class=\"footer-wrapper\"><div class=\"legal-disclaimer\"><i class=\"fas fa-shield-alt disclaimer-icon\"></i><div class=\"disclaimer-content\"><h5 class=\"disclaimer-title\">Confidencialidade e Propriedade Intelectual</h5><p class=\"disclaimer-text\"> Este documento é confidencial e destinado exclusivamente ao uso do destinatário autorizado pela OP Oasis. Proibida qualquer reprodução, distribuição ou compartilhamento não autorizado de seu conteúdo. Todos os direitos autorais e de propriedade intelectual relacionados a este relatório, incluindo estrutura, metodologia e conteúdo analítico gerado por IA, são reservados à OP Oasis © 2025. As marcas, logos e nomes de empresas de terceiros mencionados são propriedade de seus respectivos detentores, utilizados apenas para fins de identificação e análise. </p></div></div><footer class=\"footer-container\"><div class=\"copyright\">© 2025 OP Oasis. Todos os direitos reservados.</div><div class=\"footer-logo\"><img alt=\"OP Oasis Logo\" src=\"https://peru-boar-992452.hostingersite.com/OP-OASIS-LOGO-WHITE2.png\"/><div class=\"footer-logo-version\"><span class=\"footer-logo-text\">Engine v5.8.1</span></div></div></footer></div><!-- End report-container --><!-- JavaScript --><script> // --- JavaScript Implementation (v5.8.1 - No JS changes from v5.8) --- // Initialize when DOM is fully loaded document.addEventListener('DOMContentLoaded', function() { // Initialize collapsible timeline initCollapseTimeline(); // Initialize any charts with better error handling initCharts(); // Handle dynamic section numbering updateSectionNumbering(); }); // Timeline collapsible functionality function initCollapseTimeline() { const timelineContainer = document.getElementById('company-history-timeline-container'); const timeline = document.getElementById('company-history-timeline'); if (!timeline || !timelineContainer) return; const timelineItems = timeline.querySelectorAll('li'); const itemsToShowCollapsed = 4; // Show 4 most recent items // Only add toggle if there are more items than the collapsed view limit if (timelineItems.length > itemsToShowCollapsed) { // Initially hide items beyond the limit (items are ordered recent to oldest in HTML) for (let i = itemsToShowCollapsed; i < timelineItems.length; i++) { timelineItems[i].style.display = 'none'; } // Create toggle button const toggleButton = document.createElement('button'); toggleButton.className = 'timeline-toggle-btn'; toggleButton.textContent = 'Ver história completa'; // Portuguese toggleButton.setAttribute('aria-expanded', 'false'); // Add toggle functionality toggleButton.addEventListener('click', function() { const isExpanded = toggleButton.getAttribute('aria-expanded') === 'true'; for (let i = itemsToShowCollapsed; i < timelineItems.length; i++) { timelineItems[i].style.display = isExpanded ? 'none' : 'list-item'; } toggleButton.textContent = isExpanded ? 'Ver história completa' : 'Mostrar menos'; // Portuguese toggleButton.setAttribute('aria-expanded', isExpanded ? 'false' : 'true'); }); // Append button after the list timelineContainer.appendChild(toggleButton); } } // Enhanced chart initialization with improved error handling function initCharts() { // Financial Metrics Chart initChart('financial-metric-chart', 'financial-metric-chart-fallback', { type: 'bar', data: { labels: ['~2021', '~2022', '~2023'], // Placeholder data datasets: [{ label: 'Faturamento (R$ Bi)', // Example label (Portuguese) data: [null, null, 2.0], // Placeholder data backgroundColor: 'rgba(74, 144, 226, 0.7)', borderColor: 'rgba(74, 144, 226, 1)', borderWidth: 1 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top', }, tooltip: { mode: 'index', intersect: false, } }, scales: { y: { beginAtZero: true, ticks: { callback: function(value, index, ticks) { return 'R$ ' + value + ' Bi'; } } } } } }); // Share Price Chart (conditional) const shareChartCanvas = document.getElementById('share-price-chart'); if (shareChartCanvas && shareChartCanvas.closest('#public-market-overview')?.style.display !== 'none') { // Added optional chaining initChart('share-price-chart', 'share-price-chart-fallback', { type: 'line', data: { labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'], // Placeholder labels datasets: [{ label: 'Preço da Ação', // Example label (Portuguese) data: [], // Placeholder data borderColor: 'rgba(74, 144, 226, 1)', backgroundColor: 'rgba(74, 144, 226, 0.1)', borderWidth: 2, fill: true, tension: 0.4 }] }, options: { responsive: true, maintainAspectRatio: false, plugins: { legend: { position: 'top', }, tooltip: { mode: 'index', intersect: false, } }, scales: { y: { display: true, title: { display: true, text: 'Valor' // Example label (Portuguese) } } } } }); } } // Improved error handling for chart initialization function initChart(chartId, fallbackId, chartConfig) { const chartCanvas = document.getElementById(chartId); // Get canvas first const chartContainer = chartCanvas?.parentElement; // Then container const fallbackContainer = document.getElementById(fallbackId); // Skip price chart fallback display logic const isPriceChart = chartId === 'share-price-chart'; if (!chartContainer || !fallbackContainer || !chartCanvas) { // Check all three console.error(`Chart canvas, container, or fallback not found for ${chartId}`); if (fallbackContainer && !isPriceChart) { fallbackContainer.style.display = 'block'; // Show fallback if chart elements missing fallbackContainer.innerHTML = '<p>Erro ao carregar o contêiner do gráfico.</p>'; // Portuguese } return; } // Ensure chart container is visible before trying to render chartContainer.style.display = 'block'; try { // Check if data actually exists for non-placeholder charts const hasData = chartConfig?.data?.datasets?.some(ds => ds.data && ds.data.length > 0 && ds.data.some(d => d !== null)); if (!hasData) { throw new Error(`No data provided for chart ${chartId}`); } new Chart(chartCanvas, chartConfig); // Use chartCanvas here // Hide fallback if chart renders successfully (except price chart) if (!isPriceChart) { fallbackContainer.style.display = 'none'; } else { fallbackContainer.style.display = 'none'; // Ensure price chart fallback is always hidden } } catch (e) { console.error(`Chart initialization error for ${chartId} (hidden from user):`, e); // Hide the chart container itself if rendering fails chartContainer.style.display = 'none'; // Show fallback table (except for price chart) if (!isPriceChart) { fallbackContainer.style.display = 'block'; // Generate fallback table if empty and data exists in config const hasDataForFallback = chartConfig?.data?.datasets?.some(ds => ds.data && ds.data.length > 0); if (fallbackContainer.innerHTML.trim() === '' && hasDataForFallback) { createFallbackTable(fallbackContainer, chartConfig); } else if (fallbackContainer.innerHTML.trim() === '') { // Add default message if no data/config provided or if it was explicitly empty fallbackContainer.innerHTML = '<p>Não foi possível exibir o gráfico ou os dados não estão disponíveis publicamente.</p>'; // Portuguese } } else { fallbackContainer.style.display = 'none'; // Ensure price chart fallback remains hidden on error } } } // Create fallback table for failed charts function createFallbackTable(container, chartConfig) { // Ensure data exists before creating table if (!container || !chartConfig?.data?.labels?.length || !chartConfig.data.datasets?.some(ds => ds.data?.length > 0)) { container.innerHTML = '<p>Dados insuficientes para gerar tabela de fallback.</p>'; // Portuguese return; } const table = document.createElement('table'); table.className = 'data-table'; // Use standard table styling // Create header const thead = document.createElement('thead'); const headerRow = document.createElement('tr'); const thCorner = document.createElement('th'); thCorner.textContent = 'Métrica'; // Portuguese headerRow.appendChild(thCorner); chartConfig.data.labels.forEach(label => { const th = document.createElement('th'); th.textContent = label; th.style.textAlign = 'right'; // Align numeric headers right headerRow.appendChild(th); }); thead.appendChild(headerRow); table.appendChild(thead); // Create table body const tbody = document.createElement('tbody'); chartConfig.data.datasets.forEach(dataset => { // Only include datasets that actually have data if (dataset.data && dataset.data.length > 0) { const row = document.createElement('tr'); const thMetric = document.createElement('td'); // Use TD for data rows thMetric.textContent = dataset.label; thMetric.style.fontWeight = '600'; // Make metric name bold row.appendChild(thMetric); // Add data cells, ensuring alignment with labels chartConfig.data.labels.forEach((label, index) => { const td = document.createElement('td'); const value = dataset.data[index]; // Get value corresponding to label index td.textContent = typeof value === 'number' ? value.toLocaleString('pt-BR') : (value ?? 'N/D'); // Format numbers, handle null/undefined/missing td.style.textAlign = 'right'; // Align numbers right row.appendChild(td); }); tbody.appendChild(row); } }); table.appendChild(tbody); // Clear container and append table container.innerHTML = ''; container.appendChild(table); } // Dynamic section numbering based on conditional sections function updateSectionNumbering() { const sections = document.querySelectorAll('.module'); let currentMainSection = 1; sections.forEach(section => { if (section.style.display !== 'none') { const mainTitleNumber = section.querySelector('.module-title .section-number'); if (mainTitleNumber) { mainTitleNumber.textContent = `${currentMainSection}.`; } const subHeaders = section.querySelectorAll('h3, h4'); let subSectionCounter = 1; subHeaders.forEach(header => { const sectionNumberSpan = header.querySelector('.section-number'); if (sectionNumberSpan) { sectionNumberSpan.textContent = `${currentMainSection}.${subSectionCounter}`; subSectionCounter++; } }); currentMainSection++; } }); } </script>"
+              }
+            ],
+            "role": "model"
+          },
+          "finishReason": "STOP",
+          "index": 0,
+          "groundingMetadata": {
+            "searchEntryPoint": {
+              "renderedContent": "<style> .container { align-items: center; border-radius: 8px; display: flex; font-family: Google Sans, Roboto, sans-serif; font-size: 14px; line-height: 20px; padding: 8px 12px; } .chip { display: inline-block; border: solid 1px; border-radius: 16px; min-width: 14px; padding: 5px 16px; text-align: center; user-select: none; margin: 0 8px; -webkit-tap-highlight-color: transparent; } .carousel { overflow: auto; scrollbar-width: none; white-space: nowrap; margin-right: -12px; } .headline { display: flex; margin-right: 4px; } .gradient-container { position: relative; } .gradient { position: absolute; transform: translate(3px, -9px); height: 36px; width: 9px; } @media (prefers-color-scheme: light) { .container { background-color: #fafafa; box-shadow: 0 0 0 1px #0000000f; } .headline-label { color: #1f1f1f; } .chip { background-color: #ffffff; border-color: #d2d2d2; color: #5e5e5e; text-decoration: none; } .chip:hover { background-color: #f2f2f2; } .chip:focus { background-color: #f2f2f2; } .chip:active { background-color: #d8d8d8; border-color: #b6b6b6; } .logo-dark { display: none; } .gradient { background: linear-gradient(90deg, #fafafa 15%, #fafafa00 100%); } } @media (prefers-color-scheme: dark) { .container { background-color: #1f1f1f; box-shadow: 0 0 0 1px #ffffff26; } .headline-label { color: #fff; } .chip { background-color: #2c2c2c; border-color: #3c4043; color: #fff; text-decoration: none; } .chip:hover { background-color: #353536; } .chip:focus { background-color: #353536; } .chip:active { background-color: #464849; border-color: #53575b; } .logo-light { display: none; } .gradient { background: linear-gradient(90deg, #1f1f1f 15%, #1f1f1f00 100%); } } </style><div class=\"container\"><div class=\"headline\"><svg class=\"logo-light\" fill=\"none\" height=\"18\" viewbox=\"9 9 35 35\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\"><path clip-rule=\"evenodd\" d=\"M42.8622 27.0064C42.8622 25.7839 42.7525 24.6084 42.5487 23.4799H26.3109V30.1568H35.5897C35.1821 32.3041 33.9596 34.1222 32.1258 35.3448V39.6864H37.7213C40.9814 36.677 42.8622 32.2571 42.8622 27.0064V27.0064Z\" fill=\"#4285F4\" fill-rule=\"evenodd\"></path><path clip-rule=\"evenodd\" d=\"M26.3109 43.8555C30.9659 43.8555 34.8687 42.3195 37.7213 39.6863L32.1258 35.3447C30.5898 36.3792 28.6306 37.0061 26.3109 37.0061C21.8282 37.0061 18.0195 33.9811 16.6559 29.906H10.9194V34.3573C13.7563 39.9841 19.5712 43.8555 26.3109 43.8555V43.8555Z\" fill=\"#34A853\" fill-rule=\"evenodd\"></path><path clip-rule=\"evenodd\" d=\"M16.6559 29.8904C16.3111 28.8559 16.1074 27.7588 16.1074 26.6146C16.1074 25.4704 16.3111 24.3733 16.6559 23.3388V18.8875H10.9194C9.74388 21.2072 9.06992 23.8247 9.06992 26.6146C9.06992 29.4045 9.74388 32.022 10.9194 34.3417L15.3864 30.8621L16.6559 29.8904V29.8904Z\" fill=\"#FBBC05\" fill-rule=\"evenodd\"></path><path clip-rule=\"evenodd\" d=\"M26.3109 16.2386C28.85 16.2386 31.107 17.1164 32.9095 18.8091L37.8466 13.8719C34.853 11.082 30.9659 9.3736 26.3109 9.3736C19.5712 9.3736 13.7563 13.245 10.9194 18.8875L16.6559 23.3388C18.0195 19.2636 21.8282 16.2386 26.3109 16.2386V16.2386Z\" fill=\"#EA4335\" fill-rule=\"evenodd\"></path></svg><svg class=\"logo-dark\" height=\"18\" viewbox=\"0 0 48 48\" width=\"18\" xmlns=\"http://www.w3.org/2000/svg\"><circle cx=\"24\" cy=\"23\" fill=\"#FFF\" r=\"22\"></circle><path d=\"M33.76 34.26c2.75-2.56 4.49-6.37 4.49-11.26 0-.89-.08-1.84-.29-3H24.01v5.99h8.03c-.4 2.02-1.5 3.56-3.07 4.56v.75l3.91 2.97h.88z\" fill=\"#4285F4\"></path><path d=\"M15.58 25.77A8.845 8.845 0 0 0 24 31.86c1.92 0 3.62-.46 4.97-1.31l4.79 3.71C31.14 36.7 27.65 38 24 38c-5.93 0-11.01-3.4-13.45-8.36l.17-1.01 4.06-2.85h.8z\" fill=\"#34A853\"></path><path d=\"M15.59 20.21a8.864 8.864 0 0 0 0 5.58l-5.03 3.86c-.98-2-1.53-4.25-1.53-6.64 0-2.39.55-4.64 1.53-6.64l1-.22 3.81 2.98.22 1.08z\" fill=\"#FBBC05\"></path><path d=\"M24 14.14c2.11 0 4.02.75 5.52 1.98l4.36-4.36C31.22 9.43 27.81 8 24 8c-5.93 0-11.01 3.4-13.45 8.36l5.03 3.85A8.86 8.86 0 0 1 24 14.14z\" fill=\"#EA4335\"></path></svg><div class=\"gradient-container\"><div class=\"gradient\"></div></div></div><div class=\"carousel\"><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQET4cVeGVEhHupemC5LxUa972cTt8SVIJU7rdC7nXJ9BFCU4IDQgSWGImSJAVkh7ROigoPGDjKTx8UL2WEBrZqHffr4ZHo2NphhtUi9N0u776Kyk7LtMm0jGJmch-c1i7V78z6XlmURjA-aNesuoqeuPu30LD6nmX0ANtMX6dPlTp_QXF_Dg-G8zhWw967-OztSg04FzTRPJHU8cmyZGLcYSI6ZPk1lsrZsB_eyGDeh0g==\">Rodonaves operational metrics fleet size hubs</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFLVVf-2Ec2ftOfesMaw2BVrc49aTKoj6zTt8euCJgFLPbK2vMznjETsSRFQUH7oJAYZHp87fjZ6BSxrn6fkMGBhUUXCX_CYBQSVhxaNM7UyJ9JLOPL3G7l5vBv7FNcipp5GCF_Qyp9gCypNyzXcBypGRCz4nI_cSh2Tb3NpFciL8uAVb0H6e0GK0ASzc_q2pGAks1861cPQa61J_aHq8xP1QOmYXy3\">Rodonaves founding date and founder</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGfbJN3WG2khhmXEsAWa2E8iydIfx7tWyGGksqZAi0298P8eqdCKrb7k4yBYxLm11-jtumsRI55_EgjQyaiVP5fcO1j2SBMZLkf_ZQyClCq_8vBxnR6h2HKbsfGyGd8VSqF-TjFZt6GwVQ_a7u6dbI4vioFum8g1u9zznGqUJZnlzzxHhi4xduQjqv-xDu2Xm-mz2YpotOBRlDE1s50_3q2vGeryvIakhfS\">Rodonaves funding rounds and investors</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEmUpSJs0tNGYL4d694vxc_iyrCi09V-zljZxjs2m0g_vm5ipDVIw85ZdWpKr2X9_TAabHW8P-SZH1qC08CFVhnWf-QmNgg1_AnThYj3Er4K0f-9QnPkIBF_XUN2W6ov8z6oDJIog7cTWd-6wN2ecb4BZfsjLBeCjaW3XG_17Si0D3q7F2xYx-09rJpBFyFhqs-ntUc2S-RKUXwcH53eFqUk-YhCI8pW4M=\">Rodonaves services and business units</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFaQhJbWocXOTGq-se9QKjO6acK9n0jO1_Qhweo0Ke7ZkittktYh_VC65PBETmhsmyrxJCuRy_PqOUNJI0G4qRYCNLEVeCEHtQkJx8Te8qW0gR9BCtttxg2T3kFTgux01FO_8utCryfnxnNKLLsROWiQuDjU33MO2VvQWT7HnMZP01rkYNhcEoinuLq5r578TzoSbAsmfr4GWiWbSd88Sh7Ci3yH8TlrRmq5BqK8C7lWJali4gvY_UQiIc97Q==\">mercado de transporte de cargas fracionadas (LTL) Brasil</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFxEBiKRDDdvOpDzh35Sc-1kX1fVxGz4OSMMpWiIao1xME-nT1FjwRjdTSOY9yukewgvY1wTKA3vwzL3MOFp_FDZRoBgHr2Aza9OJQQ37i5f-QRZ4lS19bzW_ldCftbuqVfrEe7VzR66spJRLlULwVFo-uBFHe_wPZX2XpreZWTqd34MlmRikPcF-W4CMQ9hcKhRN8FGy8rznseNLEQcD121DXp8Pji0YRD4Dvm7w3spye7A2-xaKzo-JEeNw==\">main competitors of Rodonaves in Brazil logistics market</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHU6yzcR3sJi7SB-kRL8j5hhzwhu4QbJJZOk5YSFkXgms7OOrfzXUcN8JH8TKfWSHTZ0fU5AdkhkyuDY8CQEWhqK7Esc55WkaiyLYDl0DyWrav0kHh8FmgVXL9wXWd029Ch8TRfRUt7zPEklBnhThnu3sWbyd4hjzWak326D6NXFrO_AKZ6YzenKmdfG6laxhy7GBh35_zpL5IYIk855sOXfC3cpjQm\">João Naves Rodonaves biografia</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3lh0dXdIrhoW8swPpSyJlxSbHOLX81lxVmx0iv5_5aM6NYie-q2gjkiiTo4COgU3Xfu8JkhWbaaayv0JfLUgpZZ25HHDhEcIvNGidJuUtpsRI6Yp7vBz7lSwzC_ihTmaC-fGHAiAnge6Bj-XAP18WY-jHx0Ep0zrUbQXjlsh5j21v1OHNphtIBE-Pf2S3MBSJcqVkcwZs\">Vera Naves Rodonaves</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGuc3NrM8S6spxJIXVrWzPn6eDjD9rFvobv0YCB9D1I6OX7eLCxyXNY_btfRLtqkhb-kPVgTWmL_2oZlAD2earEYXp92TIKmtCWUOJl-se73lnV38J-X__XGIqiE3D7436_uAxUEdAKE62wV9y8Ga0EvDYQwqOE1LSocENVLlaLmE3_y0uMi_bg91TeDYdkD8I1A97CHoNoPLLN8WaZk-PSLgHkSOISG-oy5VE8ozU=\">Rodonaves revenue and financial performance</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFU5l1FjKEEFuRWkc3slzhmoGnGi9jIRUO3ARQB99MlRGZRDz8luLii4XMawZ2w0QwHjpgJ0A9yGAJa34S4hI8ZdPGL4g4DXHdwlbMXNaPN03lC_9p3PjL2bMqwgEKghvidAIHPkTp2g5EY8Ay81LJXtNX2he1tkI6icubfbISjV_UkuxfeG6KMZJKeYSaQTcPqXHlWh8ZTwADaMKcDpTiM2dy5JoTFGMHMNVT4-x8=\">Rodonaves M&amp;A activities and acquisitions</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGIepKzycRJCxPhuM6QhIoCHl2mdXqFZpZj2RPARlvBlySGi-fhybM9oJYESzWdT1RHRBxGfqHH6vl5-SxidnNA_33xpWuIYKLj-kd8oxcvpD0FsZNU_HJ724ZRATixYLmiTPq85SpAnOHfxzxhfE7GoDamGVAcEzCxQc6cg2nsL4tuPlAy4x9yumaY7fvRnW9cesGRmvTuIbByirXoM_oV\">Rodonaves legal name and CNPJ</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEiOuZ8RTr_5SAvq1QWg1h8Xq9VhOwbFwTFL7pKZK7maZUOCnQmQ41YQk5Ix3LUxqP8NmEhJLxoSxuyVbR5jrK9y_LveMgxsMbYiJcUIZQdg7eEpf5Bs3LR1Q6TllFxEFfqngTHoBUNo8nXPY1EqGKgKx2J9AS8MV4V9YdIiHQUN8R8JWh05GTSlhGpM823UG-bQwPVuqd8BvI0uubTYqqTR1-oKw==\">Rodonaves CEO and leadership team</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEWmT4Kw02jurP42O358IK6sWerKtlDRozlqtLnf6kFE-doLNukPAvHgC_dBz_BVdx4eWNgZjTOTndfsggpwLI_ud-T3zyYSsYBRFIv7u9Sc4b1qEOuSEMDhQTjTXiiNzaw1EK4pvL6ild7xu0VMN2wtD804GNbdb9Tmc-_vgvuQn-9AowOy-G4TrCaHcY2lozKAZ_Bq81sXt_VPOHdvBVP3bQqFlQTifRUDA==\">Rodonaves Carvalima acquisition details</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEjMhMrAMMNZPcPY2jwAz9fTsoLyVMAf9TME2rdOxalayuEBEII65My6BVrU3HZKpkuHXwazK-TKnf4r9G3LnEFk4LaXUmDPXroV0G2hPIjrKVl3MfQNayOxG-MawlMbcdudaiNIkQgA84lfO3BXZrijoP6waXnDfbmmBYMcE_cZ7-tryfXimteh9suAGNoMMLKzAfCevZM86pTbTg1UIKJw1snaxLA4vyJ7GdE3g==\">tendências logística Brasil 2024</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG1dBqimBUYqhAs-eF7xoWrl2BFtSEQ5XnWd7GF54G6--3wwcyf-vNyuRgyIHaRTa8RTCe4jjwG0zr5FWOD0au47I7sGj9KBBpMTWlFgyNfbEb3G4RYHpAEOcJ3kITVyex9eqXClKPFIAa8LuW8SMPgMUjr5nEeNULqPFSPeW8vFWYafSdcKvxaDv2W5XBH0-6F5IW7_Fe133AoqtlJfp5X1SZZB7eC9P7h888=\">Rodonaves prêmios e reconhecimentos</a><a class=\"chip\" href=\"https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlHUMha6jQKSJNi_buXPrpsy1x8n3k1QSHPyXktqQ3XdPYZ6dQd2xln0Hr4fKQCpF5V2kPj8L3_EnVgsQS83l2ELJNSX8vn3aWcTJWuyPRAped_GAz6B6adtBFcxgqHz6xnhIvt9VIkYNMbU86DGvwiN65-b6BrkESus0tcsmYGf0_UBa57v3g32UZrTHKu6k=\">RTE Rodonaves</a></div></div>"
+            },
+            "groundingChunks": [
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHQTGgyAIjkVGtF7CyEPCBOfl6vRBs9qFkWZ3GJ4SHDV2tgVPpLBSTAAer6v6HpaSM5IYRulLec9mzLQj2NIp8y0DDRnAi8WkMRKL8AMzv5lPnRk7pUt0MPXvueYWB-fFxbNTUWM0ctLisOx0pD3WeVN7BJ1kS7BUaoxFFqnDxpg2PFWhUY6TN67ZsA7qw3ixNsXBEtTTksDD871riMuS2uB9hN_tZwuYrd3T0Tn3Uyj-Px4pA="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF_MlSkOEn872rBMJlKBP1LDZP2Mr1TG_n0n6BiSrM5XcGHM1NbTvwJGUGxmQLSvdFLbJ8FktrEQbClVcHI_1DbpcmXgF3FCBIDa0dMuIEy9GdTJvGVB0hIIx1nd30BevdR_kLS2WdC7lrJ4GiC2GXSpxEEq8RjfWIG9SHuspNQ-eGR86XcPXjl7-qtHRKfWTN1n6MEpanPapq5GrKfZC4="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQF7K56DiEJlVspGE2Egkk4RBaWxVYrevVA6CVY1koI-AdqNNAp1Lbe1YzFNd7mgpkZjDnT0Max0lnjlg8jAXgy57QuQvKI2J4-XmoqvGW5T1sVMJfJUn75QNqi5GDFiiFeAdw=="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEMEqYDbz8PSrpj8WVaouRWf_ZvNL7ZMXG-VJF_mZs4yH0mgbPBf9QIDwXJVtcq04ZvI3QFmnocejnGcc5Km27xmp4k6pWQWYEpK18ERflw02sgnyjF-OHLreCQjKlQNbpQGPd9gxJrcJVo18qqs5zpd5wZ0U1kBrtizaTsW0FwbQwxGvfOE91pjCa_udCXXxb3bQfzsX4iyC5WfCQ1RNve8iGXyCOMC9W6",
+                  "title": "uol.com.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFi-QYIKGwuWUewEZSDByfWNY1oPXI9G24N99Xt7LLdS3h3dFUGWkigyvthaz-Z4YdyAnmdi_qZmmKsazQGKt0g36vkAslgWkIoz1nIeh-DedDVfmrYpXXAb6QuEK9NA5ojy-bykFWPq2H7QnlWJbff8TUEQNvG21pqZsW213tGU-yCcsDHQPDi0zPQkV2wCC8Wfk6F2Lqg_lgREuKaiXAgHWvFRw=="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGtuHxSSITmfBipKVB8dfoQ2mWbKKEZr2qGkfU6repsQEdOmY75kCNXQWq5IiDH4bn-OGuOMxpfPM69Yv89hQyxfA-3ewQ2IQey84SOY84WdgKksXhdkZ7XT-UjiY9WSkUpjvY45w=="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHojFGfWxzlUPWGKPxJBoA6pQIEBzp6agWOpWFmjaSMBuJeUc5XnH_xBI_0RPLkUWNobe4snqwz6jE1VGnwza4Q1GP6Vd8YzCdQ-jzU50C1BSmQoNMr5PTEwZjWU3XbvRB3s_Yl05ddNcykqgl3CVwjqj8OJqTiSqqxCihcuP1LEG3MxaBLxjSVnjfqxmvJFWthJjpZjQV1XBZzikFOD47ldAzBCLk65BD5rDwet5TQ_xDd1LHGB1NGq8SUu_PIukJsqcFXmnI8TR-URqWLvaazyg=="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQG7g5cwCBrSk9B20RRtd_5b4uw7Wc06vgbxavJ5hYDM9E4vf4AeIoHX3Wa5BMT9hJD_NbSRiaZQAlT-djZL-D-4UsWGGjikXMiI95RlYil8w5JRmppY2dAOyS2HoTGWoufk37ZQmHpHWSB3SfKWgL6_b4rdlMqrL8kC8ZHBiGsFTV9NdIqzDj5uHdjwKyb5bf05uOtUovILwnxYooqwhp7YlvAPHIgQyHGwgH91-9UZewEf6kJLGQMs",
+                  "title": "exame.com"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGyME_WftO_lkS9KtoYXJgjE1_KfDzmy9r49zdlqqD0uuKI-PlliKoaQLdOagUZc5EJEesxeuct0jPSbhRDbjklCxqOGq3h2VSM-L6yXjAjbPlcjSJ-2pRWWNFuwjS1iN33Vqfe7gUaJakR_siuan-jIp1JLIIusdeUWb-tAOOyXsODYIamg_Go0wFG82vHwhC6L50=",
+                  "title": "mordorintelligence.com"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQERasOCxwHTjGyIUrAjRGf8Q0K5WCc_LiVN0hFVR6-foS7OHrSpDAxA6jcL9SM2yYRX4d0sQVzfa60COKJRa1FIJQugkDCCgbeAbwCBzbaZLMBmYIOm9tCZSMofLjA4cGa6yUVXIl0=",
+                  "title": "youtube.com"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGGjOrl5b1H1JtlkF2XvweOJv9SIcqQPVKMM7h8gLFYnqCZxeRKMXjHGFgPmEOdYkpbuqezdqtBOFfddMDKdEnrcNwbBS-uAiwm7bD3xpcdNY0KGnbg",
+                  "title": "gupy.io"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEVaSdaSSRAHQ7YtYkVeLxFS3ATndYjaIhbEzM9DeA-BgbREaZoXf_PDdViVLDrMF846FoCpA8oZe2-dOvd7dpOBVSRZzkX_5grknqsd-h6NXfZXG1N1QGMd1vU0-_eqMDE9fT9ceerYfZ9eEKXvuzbDWUvHK843pihs053WO9LjwSzDCGr4cvzpyhWp3oVH404gwIFQgRKBKofAa0N9yFruKJzYJ6UZ2Gw5F7T02wlW5cGEwtx",
+                  "title": "portalntc.org.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHG4b0wN7qXkBVFNbgWwOFAjLzHCXd2IAUUeqT_B3HSPqKCdnEgu3Q72A271-tnHCY_Tr1t-x6_S2zsjWs8zElbDUFBBTTuNphYvH0hHUSslDyJBbmWrkicjYkRlWvTzvXYtg==",
+                  "title": "vezevoz.org"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHyA5v4z313GNo7pUx4S83Nnbzmv3lTi5Ytk8FSORITpHe8Bh6sI8uoefguNbdqgmMmfk5fU3YMrmDtff3d90C3IgCE9mVn_MzxbRbYDWjc89TPmPoe4Gbc5fm7JrEG34p5qc1wHpk=",
+                  "title": "youtube.com"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQElX_Y_oJN8vo3wm0__M2wfptloaskznL1oGA2W5nTjtvBz9Xo-GzmTtNhqU1EnMQZiq4b7xeEDPp9SJ67F03GZSwrUUdQOZr0TtnMuuBouiDG2qqTQSw05_i_p-cio3r2fz0UEiMvHqeZDx-OnuMygfgpHQM4YPMCBw-pwbwN-Kd7_0B1383ctQ9w5nt0qQfuwzYKceJa2PhaGQA=="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEoSNn80SqmBGWFOFmapPmtBMSS-D5cqYSAdt6V2NHwwGRKn_eJwfi8UYObnI3Sm-WRpC7eNWhv3kZgf827Ut8nSVYZ0R9zQmFqFRlcmezeoSCklvHExUceVqa57FxCQKu05OZwz8MH6fpNdwssdO4bnaYNbg1ea_4lTg6FCXhADVRaOpmY6LDka1mGFcYx4Hdbz7ncxq64igNRdBFFgFMUnOU50qT_PRH5RqBpMna9cSFmhx3ihWUxn5CQoQmZ7fEcKo1VdNNSrQRj8A==",
+                  "title": "portaldaautopeca.com.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEhAs5cor6kaDgBIOR2FgXWmn65YZVheNcO2_sSRmKfpE_NlnW2MWNQgD4kGuGB-yJMxo007CKdyplwbj7wIqyFYKrnuyNmo8OogTKo1cFM0papr-GfYpEC8NvgrLVQeeY4kq0c0F03cg=="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE4-6X0jc8CG706w8EUY2sZYBW4_tyt_cb9-vrKj6jwn86LhxXbtH2c2a0LBusi5MAzPgXopjWNMAT83KoBof9oyENsnvy1VvMu3a0Sxx4xL8JTbprZzk-ab6MiuQT4X2wVKiWI-L9S-Y_a2TMIwcSV7vI2yXcnH9iQZAS81mY1Ea6Lg9XTnVZZKSGts3aOtWF1wASK359wLqtcBpmlJyQ=",
+                  "title": "alphaautos.com.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHYPQFndg7sFjLaAiVPASmQY5JW7_beGR2HVYAgpw7gbXe9k9cxkDREFtHn8KDEItJJXRes-yCL09pTzBq4wwbzsZICtxHTNKu90vJqH38Zk_VMHb6DDLYH1PAOdW9JOAb34WNKLPCVqK5bRuL9q6UzUbTqwZJgQ3Yl_tDg0wPEJEdnwqxVaU4vLim0i_jY5oAvi8ci-GwFtLjbUbCSN-pO_Dj38_sDkHl2ftiYciS5J1uPBZivUY0=",
+                  "title": "tecnologistica.com.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE2BspGB9LBtWfjdd0PPoxr2Qn4Li86rRxuB3b0F0DYYgnAb31wcbnRsyeeUl7egEDGiDaqErergjuRGsvCTZuP62XmWK7CJ60sCOAs852Ay18vGzxCB4sz4JKyBD5O0KwaxnJTM52H8Y_U81Lg6YYyhmz2dVdjl7Q="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHIiPL1SdXJUHK9pTbDFIiryZ261-PW0BRjakj03CwrVehvs_VKsRkKdpZmW2cNUEvgHKpiwxGQAdYtV8gx9hwvnDhG5pF9nT5p8Uj7wIbTktCaxS1hEtppE-VcYsd7s3TUlMB7gMEza1vFXQ=="
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQFlyB4Py3laH8admprKjYsVfbcq8SoFDnPKskOvwZf11x0rnoWfTNtGozPRjUbS_hz92qhJhNNyHaplRmC2gtwDzk8v4o9I-ZEs0ljTcPx2vodrKMgu9p--r9T49thi78wXfIddY3qby7bIB3ttZJyskbeAJGC78DO0EVbak4naHmbAzUJ-kunZeKP8ct_8zDRa_LzcybS5yozkRlFl7JZoXyA5PAxtGE71Pk4rwn_SmSZzd3LkuWjEEbvxitQ=",
+                  "title": "abolbrasil.org.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQE1lCX13NHdS7RwDSjGrcyyXWjXbgeyD8-goMOwCYFA-44iQiVnyV7urU27A-5TTDWDHQ92mPeoonWBzMrtQrCqkLfPLkuOsf-wPYqYoiunNabQ-N12ZnbcqZ25wBOajkmw11Ir7xdyJz35E9nDNNF0MIXQyPf2-NDnhvuca_VkV0_ZbA==",
+                  "title": "logweb.com.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEr4rczTg3N3xSg-nkILsqGw6XhzQPUb3lnkHPoNm_NUMA5BBAOqJW6uo-l-nPLxA2K2nzkAgoXANKGNbI6B0FgH6sIUElUcB4vxytSM__65SzaxYAlFFE129qpUr7JLXTLgCq5HMEl4HRsM2Nce4dcoEH1q-lxgSz1-RTPSuzvTRSDoojQM1Pg",
+                  "title": "cmbi.info"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHD55bhSqfkbPrO5-rzYjt0CFKC18MuQJ9vxywaCJ_wXIffxFwwQAFArOzGWjWY9cCENivqBr0GTpzmiEQn3rQGrc6Ont2ZElob104itlkm2CsKTA4cm9HvpjYtZ_W9xmBsd5p4pW_7jG-2rpnKq4wjTh5NiHd3VFzE6vwJSg==",
+                  "title": "salaimprensa.com.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQEDl6hwKxLpBtFtkTotVe-Ukaz8Aza5VdyHFOO-8RXpPhegWwNb4fEj0mLitRAsCd1go6pRId8ZofX0SVNJZdcnPjj2Z4Vk0LHSB-TleVyb4zXNF7XV6AzX5M9aIR2Iw_pe9BGj61MUrW_4df2Dy_rO4J58Dh3nZqevmur3pFUc-nU0J6H39RPgLw==",
+                  "title": "sydle.com"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQHCUnOzij7cbbElIDRXhSWn6sMy59x0BBUjAOiOjq6CBiNyWNOB2sF3CVeIIisafpZf809IREf4EIbwnuQ5kOISbPaUiDDwIYRU96_IiP6nhsS27QPK78q4RH-H3F879_4nNc9A60sui39HzGoG"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQGdNq-99btF1T3ZexRJRJSexFCb8ZarSui6ClbMCWuiSsh9lSM_iRI_2oj7lQDE3PKO6mpFS_8b5cHUmozGO0ZiXeukVKU-FN8RO7wfxG_647UpQrMPZqpAoAawXffCwYTfwHBzEiwT_Dk7A98ervFrMA2J5cswV9C8yj4wnhzR",
+                  "title": "intelipost.com.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQENYLr_2QMiMp_O6X45CPk7jndKiaStBnzXc4imoZR4FXQZ6HZood4tRE8fptRQ-CY6jacuLLBJ-hCP3VMPr3vTpTR1mTKNTKFNGg-rd-W7KHUYu5OeQykfwPL-TNUqPa8RVsDy8_j-Y6vxfFqWr6wQa37TfWt0B1sg11EgRWvAiwuPEDpiwD21CNHBTSdm",
+                  "title": "tpl.com.br"
+                }
+              },
+              {
+                "web": {
+                  "uri": "https://vertexaisearch.cloud.google.com/grounding-api-redirect/AUZIYQH3pTSebRpN-Fy3TJY8NXsPbqntx6spOHCG0Cz_r5QjFyeYih4vGed0zWn6HOqOuSRDwPq6se_har0hy0WbIVFTwSD8Dqxuxl7Nei2Khc0lMrQSlm3To8BigwEoo5nnJmR0FDmV36QZXXB-eVKBaNEB_Pw7oMZ5iEeEXeGD8g67MFyhvA==",
+                  "title": "idebra.org.br"
+                }
+              }
+            ],
+            "groundingSupports": [
+              {
+                "segment": {
+                  "startIndex": 36329,
+                  "endIndex": 37104,
+                  "text": "-- Header with OP Oasis branding and consistent border-radius --&gt; <header class=\"report-header\"><div class=\"header-top\"><div class=\"header-title\">OP Oasis | DeepResearch</div><div class=\"header-date\">01 de julho de 2025</div></div><div class=\"header-main\"><div class=\"header-left\"><div class=\"company-content\"><div class=\"category-container\"><div class=\"company-category\">Transporte e Logística</div><div class=\"company-secondary-category\">Carga Fracionada (LTL)</div></div><h1 class=\"company-name\">Rodonaves</h1><div class=\"company-legal-name\"> Rodonaves Transportes e Encomendas LTDA <span class=\"verified-badge\">VF</span></div></div></div></div></header>"
+                },
+                "groundingChunkIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 38647,
+                  "endIndex": 38888,
+                  "text": "Sumário Executivo <p class=\"summary-text\"> A Rodonaves é uma das maiores empresas de transporte e logística do Brasil, com mais de 40 anos de atuação, especializada em carga fracionada (LTL) e dedicada.</p>"
+                },
+                "groundingChunkIndices": [
+                  2,
+                  3
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 38889,
+                  "endIndex": 39129,
+                  "text": "Fundada por João Naves em Ribeirão Preto (SP), a companhia evoluiu de uma operação com uma única bicicleta para um conglomerado, o Grupo Rodonaves, que inclui seis empresas em áreas como seguros, locação de veículos e agronegócio."
+                },
+                "groundingChunkIndices": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 39130,
+                  "endIndex": 39372,
+                  "text": "A empresa é de capital fechado, com forte característica de gestão familiar, e não possui histórico de rodadas de investimento de capital de risco, financiando sua expansão através de reinvestimento de lucros e parcerias estratégicas."
+                },
+                "groundingChunkIndices": [
+                  6,
+                  7
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 39373,
+                  "endIndex": 39572,
+                  "text": "A Rodonaves se posiciona como um player de referência no mercado nacional, competindo com gigantes do setor através de uma malha logística capilar e investimentos contínuos em tecnologia e frota."
+                },
+                "groundingChunkIndices": [
+                  8,
+                  9
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 39577,
+                  "endIndex": 39879,
+                  "text": "<div class=\"exec-summary-cards\"><div class=\"kpi-card\"><div class=\"kpi-icon\"><i class=\"fas fa-calendar-alt\"></i></div><div class=\"kpi-value\">1980</div><p class=\"kpi-label\">Ano de Fundação <span class=\"verified-badge kpi-badge\">VF</span></p></div></div>"
+                },
+                "groundingChunkIndices": [
+                  10
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 39879,
+                  "endIndex": 40167,
+                  "text": "<div class=\"kpi-card\"><div class=\"kpi-icon\"><i class=\"fas fa-user-tie\"></i></div><div class=\"kpi-value\">João Naves</div><p class=\"kpi-label\">Fundador e Presidente <span class=\"verified-badge kpi-badge\">VF</span></p></div>"
+                },
+                "groundingChunkIndices": [
+                  11,
+                  6
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 40167,
+                  "endIndex": 40448,
+                  "text": "<div class=\"kpi-card\"><div class=\"kpi-icon\"><i class=\"fas fa-users\"></i></div><div class=\"kpi-value\">+10.000</div><p class=\"kpi-label\">Colaboradores (Grupo) <span class=\"verified-badge kpi-badge\">VF</span></p></div>"
+                },
+                "groundingChunkIndices": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 40448,
+                  "endIndex": 40732,
+                  "text": "<div class=\"kpi-card\"><div class=\"kpi-icon\"><i class=\"fas fa-building\"></i></div><div class=\"kpi-value\">+150</div><p class=\"kpi-label\">Unidades de Atendimento <span class=\"verified-badge kpi-badge\">VF</span></p></div>"
+                },
+                "groundingChunkIndices": [
+                  13
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 41636,
+                  "endIndex": 41894,
+                  "text": "<span class=\"speculative-badge\">SA</span> A expansão para o modal aéreo e os investimentos em novos centros de distribuição sinalizam uma estratégia agressiva para aumentar a capilaridade e competir em prazos de entrega, um fator crítico no e-commerce."
+                },
+                "groundingChunkIndices": [
+                  7,
+                  14
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 41901,
+                  "endIndex": 42042,
+                  "text": "<p><strong>Sede:</strong> Ribeirão Preto, São Paulo, Brasil <span class=\"verified-badge\">VF</span></p>"
+                },
+                "groundingChunkIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 42226,
+                  "endIndex": 42578,
+                  "text": "DNA da Empresa <h3><span class=\"section-number\">2.1</span> Visão Geral e Histórico <span class=\"consensus-badge\">IC</span></h3><p>A Rodonaves foi fundada em 1980 por João Naves, que iniciou o negócio de transporte de encomendas em um pequeno box na rodoviária de Ribeirão Preto, utilizando uma bicicleta de carga.</p>"
+                },
+                "groundingChunkIndices": [
+                  6,
+                  10
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 42579,
+                  "endIndex": 42701,
+                  "text": "A empresa, cujo nome oficial é Rodonaves Transportes e Encomendas LTDA, cresceu de forma constante ao longo das décadas."
+                },
+                "groundingChunkIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 42702,
+                  "endIndex": 42805,
+                  "text": "Em 1987, estabeleceu uma sociedade com outra empresa de transporte, que foi desfeita três anos depois."
+                },
+                "groundingChunkIndices": [
+                  6
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 42806,
+                  "endIndex": 42921,
+                  "text": "Um marco de resiliência ocorreu em 1994, quando a empresa superou um vendaval que quase destruiu sua sede e frota."
+                },
+                "groundingChunkIndices": [
+                  12,
+                  7
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 42922,
+                  "endIndex": 43097,
+                  "text": "A partir de então, a expansão se acelerou, com a inauguração de uma nova e moderna matriz em Ribeirão Preto e a ampliação da atuação para diversas regiões do Brasil."
+                },
+                "groundingChunkIndices": [
+                  2
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 43098,
+                  "endIndex": 43208,
+                  "text": "Hoje, a Rodonaves é a principal empresa do Grupo Rodonaves, um ecossistema de negócios que atua em sinergia."
+                },
+                "groundingChunkIndices": [
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 43218,
+                  "endIndex": 43677,
+                  "text": "<div class=\"timeline-container collapsable-timeline\" id=\"company-history-timeline-container\"><h4>Marcos Históricos <span class=\"verified-badge\">VF</span></h4><ul class=\"compact-timeline\" id=\"company-history-timeline\"><li><span class=\"timeline-date\">2020</span><span class=\"timeline-description\">Inicia operações no transporte aéreo de cargas, investindo R$ 4 milhões para expandir a atuação multimodal.</span></li></ul></div>"
+                },
+                "groundingChunkIndices": [
+                  14
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 43677,
+                  "endIndex": 43923,
+                  "text": "<li><span class=\"timeline-date\">2014</span><span class=\"timeline-description\">Inaugura um inovador centro de cross-docking automatizado em Americana (SP) para otimizar a triagem de cargas.</span></li>"
+                },
+                "groundingChunkIndices": [
+                  9
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 43923,
+                  "endIndex": 44190,
+                  "text": "<li><span class=\"timeline-date\">1994</span><span class=\"timeline-description\">Supera uma grande crise após um vendaval destruir parte de sua estrutura, demonstrando resiliência e capacidade de recuperação.</span></li>"
+                },
+                "groundingChunkIndices": [
+                  12,
+                  7
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 44190,
+                  "endIndex": 44462,
+                  "text": "<li><span class=\"timeline-date\">1980</span><span class=\"timeline-description\">João Naves funda a RTE Rodonaves em um box na rodoviária de Ribeirão Preto (SP), iniciando as operações com uma bicicleta de carga.</span></li>"
+                },
+                "groundingChunkIndices": [
+                  6,
+                  10,
+                  2
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 44887,
+                  "endIndex": 44974,
+                  "text": "992/0001-38 e sua atividade econômica principal é o Transporte Rodoviário de Cargas."
+                },
+                "groundingChunkIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 45054,
+                  "endIndex": 45196,
+                  "text": "A expansão para o modal aéreo implica conformidade com as normas da Agência Nacional de Aviação Civil (ANAC) para o transporte de cargas."
+                },
+                "groundingChunkIndices": [
+                  14
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 45475,
+                  "endIndex": 45601,
+                  "text": "João Naves, o fundador, atua como Presidente do Grupo, enquanto sua esposa, Vera Naves, ocupa a posição de Vice-Presidente."
+                },
+                "groundingChunkIndices": [
+                  4,
+                  11,
+                  15
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 45602,
+                  "endIndex": 45705,
+                  "text": "A gestão é complementada por diretores experientes em áreas estratégicas como vendas e operações."
+                },
+                "groundingChunkIndices": [
+                  1,
+                  16
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 45705,
+                  "endIndex": 46118,
+                  "text": "<table class=\"data-table\"><thead><tr><th>Nome</th><th>Cargo</th><th>Background Resumido</th><th>Fonte</th></tr></thead><tbody><tr><td>João Naves</td><td>Fundador e Presidente</td><td>Empreendedor com mais de 40 anos de experiência no setor de transportes, iniciou a empresa do zero e a transformou em um dos maiores grupos de logística do país.</td></tr></tbody></table>"
+                },
+                "groundingChunkIndices": [
+                  6,
+                  17
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 46118,
+                  "endIndex": 46158
+                },
+                "groundingChunkIndices": [
+                  11,
+                  6
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 46428,
+                  "endIndex": 46480,
+                  "text": "Atua ativamente em programas de liderança feminina."
+                },
+                "groundingChunkIndices": [
+                  0,
+                  12
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 46480,
+                  "endIndex": 46520
+                },
+                "groundingChunkIndices": [
+                  4,
+                  0
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 46520,
+                  "endIndex": 46811,
+                  "text": "<tr><td>Régis Tiecher</td><td>CEO</td><td>Executivo com foco em inovação e tendências tecnológicas, representa a empresa em programas de desenvolvimento internacional para aplicar novas perspectivas ao mercado brasileiro.</td></tr>"
+                },
+                "groundingChunkIndices": [
+                  16
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 46811,
+                  "endIndex": 46852
+                },
+                "groundingChunkIndices": [
+                  16
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 46852,
+                  "endIndex": 47160,
+                  "text": "<tr><td>Jesiel Tasso</td><td>Diretor de Vendas e Marketing</td><td>Responsável pela estratégia comercial e de marketing da companhia, com foco em inovação e excelência de soluções para o mercado, especialmente no segmento de autopeças.</td></tr>"
+                },
+                "groundingChunkIndices": [
+                  1
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 47160,
+                  "endIndex": 47200
+                },
+                "groundingChunkIndices": [
+                  1
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 47416,
+                  "endIndex": 47619,
+                  "text": "<span class=\"analytical-badge\">AI</span> As decisões estratégicas são centralizadas nos fundadores, João e Vera Naves, que também atuam como conselheiros, direcionando o crescimento do conglomerado."
+                },
+                "groundingChunkIndices": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 47710,
+                  "endIndex": 48175,
+                  "text": "<span class=\"analytical-badge\">AI</span><table class=\"data-table\"><thead><tr><th>Nome</th><th>Cargo</th><th>Representação</th><th>Background Resumido</th><th>Fonte</th></tr></thead><tbody><tr><td>João Naves</td><td>Conselheiro</td><td>Fundador / Proprietário</td><td>Visão estratégica e liderança do Grupo, com foco no crescimento sustentável e manutenção dos valores da empresa.</td></tr></tbody></table>"
+                },
+                "groundingChunkIndices": [
+                  17
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 48175,
+                  "endIndex": 48216
+                },
+                "groundingChunkIndices": [
+                  17
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 48216,
+                  "endIndex": 48479,
+                  "text": "<tr><td>Vera Naves</td><td>Conselheira</td><td>Fundadora / Proprietária</td><td>Supervisão administrativa e financeira, além de liderar iniciativas de ESG e desenvolvimento de pessoas.</td></tr>"
+                },
+                "groundingChunkIndices": [
+                  12,
+                  15
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 48479,
+                  "endIndex": 48520
+                },
+                "groundingChunkIndices": [
+                  12
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 48740,
+                  "endIndex": 48860,
+                  "text": "<span class=\"verified-badge\">VF</span> A propriedade é concentrada na família Naves, que fundou e controla o negócio."
+                },
+                "groundingChunkIndices": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 49029,
+                  "endIndex": 49430,
+                  "text": "<span class=\"analytical-badge\">AI</span><table class=\"data-table\"><thead><tr><th>Acionista</th><th>Tipo</th><th>Participação (%)</th><th>Fonte</th></tr></thead><tbody><tr><td>Família Naves</td><td>Controlador / Fundador</td><td>Majoritária (estimado) <span class=\"speculative-badge\">SA</span></td></tr></tbody></table>"
+                },
+                "groundingChunkIndices": [
+                  4,
+                  6
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 49769,
+                  "endIndex": 49942,
+                  "text": "<span class=\"analytical-badge\">AI</span> A experiência prática de ambos, que vivenciaram todas as fases de crescimento da empresa, é um ativo intangível de grande valor."
+                },
+                "groundingChunkIndices": [
+                  12,
+                  17
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 49943,
+                  "endIndex": 50090,
+                  "text": "A presença de um CEO como Régis Tiecher, focado em inovação, sugere uma preparação para os desafios da transformação digital na logística."
+                },
+                "groundingChunkIndices": [
+                  16
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 51146,
+                  "endIndex": 51243,
+                  "text": "Augusto Soares dos Santos, 550 - Parque Industrial Lagoinha, Ribeirão Preto - SP, CEP: 14095-240"
+                },
+                "groundingChunkIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 51243,
+                  "endIndex": 51310,
+                  "text": "<tr><td>Website</td><td>www.</td></tr>"
+                },
+                "groundingChunkIndices": [
+                  0,
+                  1
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 54111,
+                  "endIndex": 54689,
+                  "text": "Arquitetura de Negócios <h3><span class=\"section-number\">3.1</span> Modelo de Negócios <span class=\"analytical-badge\">AI</span></h3><div class=\"structured-diagram-container\"><div class=\"process-group\"><div class=\"process-header\">Proposta de Valor Essencial</div><p>Oferecer soluções logísticas integradas e confiáveis para o transporte de cargas em todo o território brasileiro, combinando capilaridade, tecnologia e um forte foco no relacionamento com o cliente para garantir agilidade e segurança nas entregas.</p></div></div>"
+                },
+                "groundingChunkIndices": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 54689,
+                  "endIndex": 55087,
+                  "text": "<div class=\"process-group\"><div class=\"process-header\">Componentes Principais</div><div class=\"process-item\"><div class=\"process-item-header\">Segmentos de Clientes</div><p>Empresas de todos os portes (B2B) em diversos setores, como autopeças, e-commerce, farmacêutico, têxtil e agronegócio, que necessitam de transporte de carga fracionada ou dedicada.</p></div></div>"
+                },
+                "groundingChunkIndices": [
+                  1,
+                  11,
+                  18,
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 55087,
+                  "endIndex": 55347,
+                  "text": "<div class=\"process-item\"><div class=\"process-item-header\">Canais de Distribuição</div><p>Rede com mais de 150 unidades próprias e parceiras, frota de veículos rodoviários e parcerias com companhias aéreas para o transporte multimodal.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 55347,
+                  "endIndex": 55648,
+                  "text": "<div class=\"process-item\"><div class=\"process-item-header\">Relacionamento com Cliente</div><p>Atendimento próximo e humanizado através das unidades físicas, canais digitais e foco na excelência do serviço, gerando parcerias de longo prazo e reconhecimento em prêmios do setor.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  11,
+                  2
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 55648,
+                  "endIndex": 55925,
+                  "text": "<div class=\"process-item\"><div class=\"process-item-header\">Recursos-Chave</div><p>Frota moderna de mais de 2.700 veículos, centros de transferência e distribuição (CTCs) automatizados, tecnologia de rastreamento e equipe com mais de 10.000 colaboradores.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  19,
+                  10,
+                  9
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 55925,
+                  "endIndex": 56179,
+                  "text": "<div class=\"process-item\"><div class=\"process-item-header\">Atividades-Chave</div><p>Coleta, transferência, roteirização, transporte (rodoviário e aéreo), entrega de última milha (last mile), armazenagem e gerenciamento de riscos.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  13,
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 56179,
+                  "endIndex": 56430,
+                  "text": "<div class=\"process-item\"><div class=\"process-item-header\">Parcerias Estratégicas</div><p>Parcerias com companhias aéreas (ex: LATAM) para o modal aéreo e com empresas de transporte regionais para ampliar a capilaridade da malha.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  13,
+                  14
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 56765,
+                  "endIndex": 57048,
+                  "text": "<div class=\"process-item\"><div class=\"process-item-header\">Fontes de Receita</div><p>Fretes de transporte de carga fracionada (LTL), fretes de carga dedicada (FTL), serviços de logística aérea, e receitas das outras empresas do grupo (seguros, locação, etc.).</p></div>"
+                },
+                "groundingChunkIndices": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 57477,
+                  "endIndex": 57506,
+                  "text": "Atende mais de 3.200 cidades."
+                },
+                "groundingChunkIndices": [
+                  13,
+                  20
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 57506,
+                  "endIndex": 57787,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-truck\"></i> Transporte de Carga Dedicada (Lotação)</h5><p>Oferece veículos exclusivos para clientes com grandes volumes de carga, garantindo agilidade e segurança para entregas ponto a ponto.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  2,
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 57787,
+                  "endIndex": 58086,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-plane-departure\"></i> Logística Aérea</h5><p>Segmento em expansão que oferece maior rapidez na entrega para longas distâncias e cargas de maior valor agregado, em parceria com as principais companhias aéreas.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  14
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 58086,
+                  "endIndex": 58382,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-cogs\"></i> Soluções do Grupo Rodonaves</h5><p>Receitas provenientes das outras empresas do grupo, como seguros (Rodonaves Corretora), locação de veículos, serviços para o agronegócio (RTE Agro) e outros.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 58416,
+                  "endIndex": 58784,
+                  "text": "<h3><span class=\"section-number\">3.3</span> Portfólio de Ofertas <span class=\"consensus-badge\">IC</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-box-open\"></i> RTE Rodonaves</h5><p>Empresa principal focada em transporte rodoviário (LTL, dedicada) e aéreo de cargas secas, com ampla capilaridade nacional.</p></div></div>"
+                },
+                "groundingChunkIndices": [
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 58784,
+                  "endIndex": 59039,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-shield-alt\"></i> Rodonaves Corretora de Seguros</h5><p>Oferece soluções em seguros para veículos, cargas, patrimônio e vida, atendendo ao grupo e ao mercado externo.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 59039,
+                  "endIndex": 59280,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-tractor\"></i> RTE Agro</h5><p>Unidade de negócio dedicada a soluções logísticas para o agronegócio, transportando insumos, fertilizantes e defensivos.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 59280,
+                  "endIndex": 59541,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-car-crash\"></i> Outras Empresas</h5><p>Inclui a Rodonaves IVECO (concessionária), Rodonaves Locação de Veículos e Rodonaves Restauradora Multimarcas (funilaria e pintura).</p></div>"
+                },
+                "groundingChunkIndices": [
+                  4,
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 61261,
+                  "endIndex": 61524,
+                  "text": "<div class=\"process-item\"><div class=\"process-item-header\">Tecnologia da Informação</div><div class=\"process-item-detail\">Software de gerenciamento de transporte (TMS)</div><div class=\"process-item-detail\">Sistemas de triagem automatizada (sorters)</div></div>"
+                },
+                "groundingChunkIndices": [
+                  9
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 62866,
+                  "endIndex": 63220,
+                  "text": "Posicionamento de Mercado <h3><span class=\"section-number\">4.1</span> Cenário Competitivo <span class=\"consensus-badge\">IC</span> / <span class=\"analytical-badge\">AI</span></h3><p>O mercado brasileiro de transporte de carga fracionada (LTL) é altamente competitivo e fragmentado, com players nacionais e multinacionais.</p>"
+                },
+                "groundingChunkIndices": [
+                  21,
+                  20
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 63221,
+                  "endIndex": 63359,
+                  "text": "A Rodonaves se posiciona como uma das líderes, destacando-se pela qualidade do serviço e forte presença em nichos como o de autopeças."
+                },
+                "groundingChunkIndices": [
+                  1,
+                  22
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 63360,
+                  "endIndex": 63508,
+                  "text": "Seus principais concorrentes incluem empresas com extensa malha nacional como Braspress e JSL, além de gigantes globais como a DHL e a TNT (FedEx)."
+                },
+                "groundingChunkIndices": [
+                  23,
+                  8
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 66845,
+                  "endIndex": 66916,
+                  "text": "<td>BR Nacional</td>"
+                },
+                "groundingChunkIndices": [
+                  1,
+                  2
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 67113,
+                  "endIndex": 67185,
+                  "text": "<td>BR Nacional</td>"
+                },
+                "groundingChunkIndices": [
+                  23
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 67438,
+                  "endIndex": 67514,
+                  "text": "<td>América Latina</td>"
+                },
+                "groundingChunkIndices": [
+                  8
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 67737,
+                  "endIndex": 67804,
+                  "text": "<td>Global</td>"
+                },
+                "groundingChunkIndices": [
+                  23
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 68118,
+                  "endIndex": 68541,
+                  "text": "<h3><span class=\"section-number\">4.3</span> Segmentos de Clientes <span class=\"verified-badge\">VF</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-car-battery\"></i> Indústria de Autopeças</h5><p>Principal segmento de atuação, onde a empresa é consistentemente reconhecida com prêmios de melhor transportadora, indicando forte market share e especialização.</p></div></div>"
+                },
+                "groundingChunkIndices": [
+                  1,
+                  24,
+                  22
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 68541,
+                  "endIndex": 68633,
+                  "text": "<p><strong>Clientes Notáveis:</strong> Stanley Black &amp; Decker, CNH Industrial.</p>"
+                },
+                "groundingChunkIndices": [
+                  11
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 68633,
+                  "endIndex": 68893,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-pills\"></i> Farmacêutico e Cosméticos</h5><p>Setor que exige cuidados especiais com manuseio, temperatura e prazos, áreas onde a empresa investe para garantir a qualidade.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  18
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 68893,
+                  "endIndex": 69164,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-tshirt\"></i> Têxtil e Varejo</h5><p>Atende às demandas do varejo e da indústria têxtil, que necessitam de agilidade na reposição de estoques e distribuição para pontos de venda.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  18
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 69164,
+                  "endIndex": 69450,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-shopping-cart\"></i> E-commerce</h5><p>Segmento em crescimento que demanda entregas rápidas e rastreabilidade ponta a ponta, impulsionando investimentos em tecnologia e na operação de última milha.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  21
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 69484,
+                  "endIndex": 69929,
+                  "text": "<h3><span class=\"section-number\">4.4</span> Tendências de Mercado <span class=\"consensus-badge\">IC</span> / <span class=\"speculative-badge\">SA</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-robot\"></i> Digitalização e Automação</h5><p>Adoção de IA, IoT e automação para otimizar rotas, gerenciar estoques e automatizar centros de distribuição é crucial para a eficiência.</p></div></div>"
+                },
+                "groundingChunkIndices": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 69930,
+                  "endIndex": 69979,
+                  "text": "A Rodonaves já investe em sorters automatizados."
+                },
+                "groundingChunkIndices": [
+                  9
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 69979,
+                  "endIndex": 70283,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-leaf\"></i> Sustentabilidade (ESG)</h5><p>Crescente pressão por operações logísticas mais sustentáveis, incluindo frotas com menor emissão de carbono e otimização de rotas para reduzir o consumo de combustível.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  27,
+                  28
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 70283,
+                  "endIndex": 70582,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-shipping-fast\"></i> Logística de Última Milha (Last Mile)</h5><p>Com o boom do e-commerce, a eficiência e a rapidez na entrega final tornaram-se um diferencial competitivo chave, exigindo soluções inovadoras.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  25,
+                  27
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 70582,
+                  "endIndex": 70915,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-globe-americas\"></i> Resiliência da Cadeia de Suprimentos</h5><p>Empresas buscam parceiros logísticos que ofereçam visibilidade e resiliência para mitigar riscos de disrupções, valorizando a diversificação de modais e a análise preditiva.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  26,
+                  29
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 71140,
+                  "endIndex": 71542,
+                  "text": "Análise de Performance <h3><span class=\"section-number\">5.1</span> Métricas Operacionais Chave <span class=\"consensus-badge\">IC</span></h3><div class=\"card-grid\"><div class=\"info-card\"><h5><i class=\"fas fa-truck-moving\"></i> Tamanho da Frota</h5><p>Mais de 2.700 veículos (próprios e parceiros), indicando uma grande capacidade operacional.</p></div></div>"
+                },
+                "groundingChunkIndices": [
+                  19
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 71542,
+                  "endIndex": 71764,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-map-marked-alt\"></i> Capilaridade</h5><p>Atendimento a mais de 3.200 cidades no Brasil, através de mais de 150 unidades de atendimento.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  13
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 71764,
+                  "endIndex": 72000,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-industry\"></i> Capacidade de Triagem</h5><p>O centro de Americana (SP) pode processar 8.000 volumes por hora, demonstrando alto nível de automação.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  9
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 72000,
+                  "endIndex": 72241,
+                  "text": "<div class=\"info-card\"><h5><i class=\"fas fa-users-cog\"></i> Força de Trabalho</h5><p>O Grupo Rodonaves emprega mais de 10.000 colaboradores diretos e indiretos, um indicador da escala da operação.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  4,
+                  12
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 72513,
+                  "endIndex": 72669,
+                  "text": "Contudo, reportagens indicam um faturamento que atingiu a marca de R$ 2 bilhões, demonstrando um crescimento expressivo e uma posição financeira robusta."
+                },
+                "groundingChunkIndices": [
+                  7
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 72670,
+                  "endIndex": 72853,
+                  "text": "A empresa planeja investir mais de R$ 250 milhões até 2025 para dobrar sua estrutura em estados estratégicos, sinalizando forte geração de caixa e confiança na expansão futura."
+                },
+                "groundingChunkIndices": [
+                  7
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 73954,
+                  "endIndex": 74108,
+                  "text": "<span class=\"analytical-badge\">AI</span> A empresa passou de uma bicicleta para uma frota de milhares de veículos através de reinvestimentos constantes."
+                },
+                "groundingChunkIndices": [
+                  6,
+                  19
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 74109,
+                  "endIndex": 74246,
+                  "text": "A estratégia de crescimento é focada na expansão orgânica: abertura de novas filiais, aumento da frota e investimentos em tecnologia."
+                },
+                "groundingChunkIndices": [
+                  7
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 74247,
+                  "endIndex": 74402,
+                  "text": "A criação do Grupo Rodonaves representa uma diversificação estratégica, adicionando novas linhas de receita e fortalecendo o ecossistema de negócios."
+                },
+                "groundingChunkIndices": [
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 74403,
+                  "endIndex": 74575,
+                  "text": "A entrada no modal aéreo em 2020 foi um passo importante para se tornar um provedor de logística multimodal, atendendo a uma demanda crescente por entregas mais rápidas."
+                },
+                "groundingChunkIndices": [
+                  14
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 75678,
+                  "endIndex": 75716,
+                  "text": "<span class=\"verified-badge\">VF</span>"
+                },
+                "groundingChunkIndices": [
+                  4
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 77256,
+                  "endIndex": 77332,
+                  "text": "Investimentos em automação, como os sorters, visam reduzir este indicador."
+                },
+                "groundingChunkIndices": [
+                  9
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 77333,
+                  "endIndex": 77677,
+                  "text": "<span class=\"analytical-badge\">AI</span><div class=\"info-card\"><h5><i class=\"fas fa-user-plus\"></i> Custo de Aquisição de Cliente (CAC)</h5><p>Embora não público, a forte reputação e os prêmios no setor de autopeças sugerem um CAC potencialmente menor nesse nicho devido à autoridade da marca.</p></div>"
+                },
+                "groundingChunkIndices": [
+                  1,
+                  22
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 78414,
+                  "endIndex": 78769,
+                  "text": "<h3><span class=\"section-number\">6.1</span> Síntese SWOT <span class=\"analytical-badge\">AI</span></h3><div class=\"swot-matrix-container\"><div class=\"swot-matrix\"><div class=\"swot-quadrant strengths\"><h5><i class=\"fas fa-thumbs-up\"></i> Forças</h5><ul><li>Marca forte e reconhecida, especialmente no setor de autopeças.</li></ul></div></div></div>"
+                },
+                "groundingChunkIndices": [
+                  1,
+                  22
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 78769,
+                  "endIndex": 78846,
+                  "text": "<li>Extensa capilaridade nacional com mais de 150 unidades.</li>"
+                },
+                "groundingChunkIndices": [
+                  13
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 78846,
+                  "endIndex": 78920,
+                  "text": "<li>Estrutura de grupo diversificada que gera sinergias.</li>"
+                },
+                "groundingChunkIndices": [
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 78920,
+                  "endIndex": 79015,
+                  "text": "<li>Liderança experiente e estável com os fundadores à frente do negócio.</li>"
+                },
+                "groundingChunkIndices": [
+                  4
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 79015,
+                  "endIndex": 79094,
+                  "text": "<li>Saúde financeira sólida com crescimento autofinanciado.</li>"
+                },
+                "groundingChunkIndices": [
+                  7
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 79637,
+                  "endIndex": 79907,
+                  "text": "<span class=\"analytical-badge\">AI</span><div class=\"swot-quadrant opportunities\"><h5><i class=\"fas fa-search-plus\"></i> Oportunidades</h5><ul><li>Expansão contínua do e-commerce no Brasil, demandando logística eficiente.</li></ul></div>"
+                },
+                "groundingChunkIndices": [
+                  27
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 79907,
+                  "endIndex": 79981,
+                  "text": "<li>Crescimento do agronegócio, alavancando a RTE Agro.</li>"
+                },
+                "groundingChunkIndices": [
+                  5
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 79981,
+                  "endIndex": 80082,
+                  "text": "<li>Aumento da demanda por soluções logísticas multimodais (aéreo-rodoviário).</li>"
+                },
+                "groundingChunkIndices": [
+                  14
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 80082,
+                  "endIndex": 80200,
+                  "text": "<li>Oferta de serviços de logística 4.0, com maior integração de tecnologia e análise de dados.</li>"
+                },
+                "groundingChunkIndices": [
+                  25,
+                  26
+                ]
+              },
+              {
+                "segment": {
+                  "startIndex": 80200,
+                  "endIndex": 80421,
+                  "text": "<div class=\"swot-quadrant threats\"><h5><i class=\"fas fa-exclamation-triangle\"></i> Ameaças</h5><ul><li>Alta competitividade no setor de logística com players capitalizados.</li></ul></div>"
+                },
+                "groundingChunkIndices": [
+                  23,
+                  8
+                ]
+              }
+            ],
+            "webSearchQueries": [
+              "Rodonaves legal name and CNPJ",
+              "Rodonaves founding date and founder",
+              "Rodonaves CEO and leadership team",
+              "Rodonaves M&A activities and acquisitions",
+              "Rodonaves Carvalima acquisition details",
+              "Rodonaves funding rounds and investors",
+              "Rodonaves services and business units",
+              "Rodonaves operational metrics fleet size hubs",
+              "Rodonaves revenue and financial performance",
+              "main competitors of Rodonaves in Brazil logistics market",
+              "Rodonaves prêmios e reconhecimentos",
+              "João Naves Rodonaves biografia",
+              "Vera Naves Rodonaves",
+              "RTE Rodonaves",
+              "mercado de transporte de cargas fracionadas (LTL) Brasil",
+              "tendências logística Brasil 2024"
+            ]
+          }
+        }
+      ],
+      "usageMetadata": {
+        "promptTokenCount": 33773,
+        "candidatesTokenCount": 34071,
+        "totalTokenCount": 73172,
+        "cachedContentTokenCount": 15519,
+        "promptTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 33773
+          }
+        ],
+        "cacheTokensDetails": [
+          {
+            "modality": "TEXT",
+            "tokenCount": 15519
+          }
+        ],
+        "toolUsePromptTokenCount": 2663,
+        "thoughtsTokenCount": 2665
+      },
+      "modelVersion": "models/gemini-2.5-pro",
+      "responseId": "mTtkaLv9OYqXvdIP2ojdgAE"
+    }
+  ]
+}
